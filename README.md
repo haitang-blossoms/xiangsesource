@@ -4,6 +4,8 @@
 
 English bookSources: https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/englishSource.md
 
+以上.md文件里可能存在重复链接，但并不影响使用因app会认为是更新书源
+
 #### 介绍
 以下是我创作或修改的源，请阅读它们的简介再考虑导入；
 
