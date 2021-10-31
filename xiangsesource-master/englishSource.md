@@ -46,3 +46,6 @@ should be usable, but will be slow because images require webview and is split i
 
 - **mixes.cloud** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/Mixes.Cloud.xbs`
 searches for audio files people have uploaded, loading the file may take time as webview is used
+
+- **YouTube** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/socialkuaikan.xbs`
+should be usable?
