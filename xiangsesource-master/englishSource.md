@@ -41,3 +41,8 @@ should be usable?
 
 - **mangago** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/mangago.xbs`
 should be usable, but will be slow because images require webview and is split into multiple pages
+
+#### audio sources
+
+- **mixes.cloud** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/Mixes.Cloud.xbs`
+searches for audio files people have uploaded, loading the file may take time as webview is used
