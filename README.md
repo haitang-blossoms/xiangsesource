@@ -15,7 +15,7 @@ English bookSources: https://github.com/haitang-blossoms/xiangsesource/tree/main
 
 若有书源制造要求可以在issues发布任务，我尽量会去执行
 
-🗿有些规则可能已失效，大部分应该不会去修改了吧
+🗿有些规则可能已失效，大部分应该不会去修改了吧；有的音频/视频可能初次加载不全或加载不了，若开了webview需要等，其他情况需要退出刷新，应该是app处理js的问题
 
 English help document: https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/Help.en.md
 
