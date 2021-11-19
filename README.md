@@ -1,3 +1,5 @@
+2.52新版本采用不同规则性，估计感恩节左右更新源，在此之前旧源先存放在这
+
 # xiangsesource
 
 中文源： https://github.com/haitang-blossoms/xiangsesource/blob/main/xiangsesource-master/%E4%B8%AD%E6%96%87%E6%BA%90.md
