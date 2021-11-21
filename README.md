@@ -21,7 +21,7 @@ English bookSources: https://github.com/haitang-blossoms/xiangsesource/tree/main
 
 🗿有些规则可能已失效，大部分应该不会去修改了吧；有的音频/视频可能初次加载不全或加载不了，若开了webview需要等，其他情况需要退出刷新，应该是app处理js的问题
 
-English help document: https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/Help.en.md
+帮助： https://gitee.com/haitang-blossoms/xiangsesource/wikis
 
 #### 交流区
 
