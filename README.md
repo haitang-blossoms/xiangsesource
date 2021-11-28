@@ -1,19 +1,19 @@
-2.52新版本采用不同规则性，估计感恩节左右更新源，在此之前旧源先存放在这
+2.52新版本采用不同规则性，旧源新源文件都保留
 
-# xiangsesource
+# xiangsesource-导入
 
-中文源： https://github.com/haitang-blossoms/xiangsesource/blob/main/xiangsesource-master/%E4%B8%AD%E6%96%87%E6%BA%90.md
+复制链接，到app同步界面同步源
 
-English bookSources: https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/englishSource.md
+格式是以.xbs尾或.md尾（.md则是多个源导入）
 
-以上.md文件里可能存在重复链接，但并不影响使用因app会认为是更新书源
+如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可
+
+（更新慢因为修改和发布书源文件好麻烦，不像阅读的json书源便捷🗿）
 
 #### 介绍
-以上是我创作或修改的源，请点击链接阅读它们的简介再考虑导入；
+此仓库是我创作或修改的源，请点击链接阅读它们的简介再考虑导入；
 
-不定期添加新源以及更新/修复源，所以要长期使用的话记得偶尔查看此仓库的‘upload xbs’动态或时不时重新同步源链接
-
-导入方式：复制xbs为尾的链接到app里的书源同步界面然后app会自动处理，或者下载然后分享到app里
+不定期添加新源以及更新/修复源，所以要长期使用的话记得偶尔查看此仓库的‘upload’动态或时不时重新同步源链接
 
 如果有需要了话可以修改源的权重，搜索到这些源也会快一些
 
@@ -34,4 +34,5 @@ English bookSources: https://github.com/haitang-blossoms/xiangsesource/tree/main
 - 废弃源在 https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/废弃 ，有兴趣的大佬可以修改一下；文件都是按照网址域名重命名的
 
 - _关于源锁定_ ：我所写的源是不会上锁的，共学习用。随意修改但求标注是从我的仓库获取的（除非是我修改而不是创造的源）。若备份时标注仓库源头请核实标注是准确的谢谢。
+- 
 - 如果有源写不了搜索规则可以试试按照 https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/otherdependencies/tips.md 执行
