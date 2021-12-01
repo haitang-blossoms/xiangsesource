@@ -130,6 +130,7 @@
       "rules": {
         "请求信息": "",
         "list": "",
+        "title":"",
         "detail": "",
         "cover": "",
         "url": "",
@@ -146,6 +147,7 @@
       "rules": {
         "请求信息": "",
         "list": "",
+        "title":"",
         "detail": "",
         "cover": "",
         "url": "",
