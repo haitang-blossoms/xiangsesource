@@ -188,36 +188,22 @@ return 'http://www.jjwxc.net/bookbase.php?fw' + params.filters.range + '&fbsj' +
   },
   "书单分组": [
     {
-      "name": "",
+      "name": "榜单",
       "rules": {
-        "请求信息": "",
-        "list": "",
-        "detail": "",
+        "请求信息": "http://www.jjwxc.net/booklistmore.php?t=%@filter",
+        "list": "//tr[@bgcolor='#eefaee']",
+	"title": "//td[2]/a",
+        "detail": "//td[7]",
         "cover": "",
-        "url": "",
-        "requestParamsEncode": "",
-        "responseEncode": "",
-        "responseFormatType": "",
+        "url": "//td[2]/a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "{"maxPage":1,"requestFilters":[{"items":[{"title":"最受欢迎榜","value":"1"},{"title":"最新生成榜","value":"2"}],"key":"filter"}]}"
       }
-    },
-    {
-      "name": "",
-      "rules": {
-        "请求信息": "",
-        "list": "",
-        "detail": "",
-        "cover": "",
-        "url": "",
-        "requestParamsEncode": "",
-        "responseEncode": "",
-        "responseFormatType": "",
-        "success": "",
-        "JSParser": "",
-        "moreKeys": ""
-      }
+    }
     }
   ],
   "书单详情": {
