@@ -266,7 +266,7 @@ return 'https://bbs.jjwxc.net/' + result;",
     "responseFormatType": "HTML(格式化为DOM)",
     "success": "",
     "JSParser": "",
-    "moreKeys": ""
+    "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"title":"网友留言区","value":"2"},{"title":"宠物情缘","value":"40"},{"title":"时尚·饕餮","value":"16"},{"title":"战色逆乐园","value":"20"},{"title":"百合堂","value":"55"},{"title":"妈咪宝贝","value":"39"},{"title":"读书心得区","value":"4"},{"title":"动漫大家谈","value":"12"},{"title":"晋江影视区","value":"14"},{"title":"自由交易区","value":"11"},{"title":"碧水江汀","value":"17"},{"title":"留声花园","value":"44"},{"title":"涂画乐园","value":"23"},{"title":"古意茶坊","value":"10"},{"title":"闲情","value":"3"},{"title":"评论专区","value":"9"},{"title":"优声由色","value":"52"},{"title":"意见建议簿","value":"22"},{"title":"版主交流区","value":"13"}],"key":"filter"}]}"
   },
   "热词": {
     "请求信息": "",
