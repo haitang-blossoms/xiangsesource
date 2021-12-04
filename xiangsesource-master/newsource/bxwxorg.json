@@ -138,6 +138,28 @@ return result.replace(/您可以在百度里搜索.*?查找最新章节！/, '')
         "success": "",
         "JSParser": "",
         "moreKeys": "{"pageSize":2000}"
+      },
+    {
+      "name": "书库",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.bxwxorg.com/store/' + params.filters.sort + '_' + params.filters.cat + '_' + params.filters.status + '_' + params.pageIndex + '.html';",
+        "list": "//div[@id='sitembox']/dl",
+    "bookName": "//dd[1]/h3/a",
+    "author": "//dd[2]/span[1]",
+    "cover": "//dt/a/img/@src",
+    "desc": "//dd[@class='book_des']",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "//dd[@class='book_other']/a",
+    "detailUrl": "//dd[1]/h3/a/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": ""utf-8,
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "//div[@id='sitembox']",
+    "JSParser": "",
+    "moreKeys": "{"pageSize":30,"requestFilters":[{"key":"cat","items":[{"value":"0","title":"全部"},{"value":"1","title":"玄幻奇幻"},{"value":"2","title":"武侠仙侠"},{"value":"3","title":"都市生活"},{"value":"4","title":"历史军事"},{"value":"5","title":"游戏竞技"},{"value":"6","title":"科幻未来"},{"value":"7","title":"恐怖悬疑"},{"value":"8","title":"二次元"},{"value":"9","title":"经典网文"},{"value":"10","title":"古代言情"},{"value":"11","title":"现代言情"},{"value":"12","title":"幻想奇缘"},{"value":"13","title":"青春校园"},{"value":"14","title":"网络情缘"},{"value":"15","title":"科幻空间"},{"value":"16","title":"鬼怪灵异"},{"value":"17","title":"N次元"},{"value":"18","title":"言情美文"}]},{"key":"sort","items":[{"value":"0","title":"默认"},{"value":"allvisit","title":"总点击"},{"value":"monthvisit","title":"月点击"},{"value":"weekvisit","title":"周点击"},{"value":"dayvisit","title":"日点击"},{"value":"allvote","title":"总推荐"},{"value":"monthvote","title":"月推荐"},{"value":"weekvote","title":"周推荐"},{"value":"dayvote","title":"日推荐"},{"value":"goodnum","title":"总收藏"},{"value":"size","title":"字数"},{"value":"postdate","title":"入库"}]},{"key":"status","items":[{"value":"0","title":"全部"},{"value":"1","title":"连载"},{"value":"2","title":"完本"}]}]}"
       }
     }
   ],
