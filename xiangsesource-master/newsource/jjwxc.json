@@ -207,8 +207,9 @@ return 'http://www.jjwxc.net/bookbase.php?fw' + params.filters.range + '&fbsj' +
     }
   ],
   "书单详情": {
-    "请求信息": "",
-    "list": "//tbody[@id=novellist']/tr",
+    "请求信息": "@js:
+return params.queryInfo.url;",
+    "list": "//tbody[@id='novellist']/tr",
     "detail": "//td[7]",
     "bookName": "//td[1]/a",
     "author": "",
