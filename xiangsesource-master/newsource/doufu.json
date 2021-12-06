@@ -1,0 +1,236 @@
+
+{
+  "名称": "豆腐小说",
+  "host": "https://doufu.la/",
+  "权重": "1",
+  "类型": "文本/小说",
+  "备注": "",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "https://www.doufu.la/search?kd=%@keyWord&page=%@pageIndex",
+    "list": "//div[@class='book book-base']",
+    "bookName": "//div[@class='book_mn']/h3/a",
+    "author": "//div[@class='book_sd']/div[@class='book_author']||@js:
+return result.replace(/ 著/, '');",
+    "cover": "//div[@class='book_sd']/a/img/@src",
+    "desc": "//div[@class='book_mn']/div[@class='book_ct']",
+    "cat": "//div[@class='book_mn']/div[@class='book_subtt']",
+    "status": "//div[@class='book_mn']/h3/span",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "//div[@class='book_sd']/a/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "//div[@class='book_sd']/img/@src",
+    "desc": "//div[@class='book_ct book_des']",
+    "cat": "//div[@class='book_subtt']",
+    "status": "//h1/span",
+    "wordCount": "//ul[@class='list-inline']/li[1]/strong",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "//ul[@class='list-inline-3']/li",
+    "title": "//a",
+    "url": "//a/@href||@js:
+let index = result.indexOf('chapter\/');
+return result.substr(index+8);",
+    "nextPageUrl": "",
+    "updateTime": "//ul[@class='list-inline']/li[2]/text()",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "http://api.doufu.la/index.php/post/view/%@result?with_ids=1&type=read",
+    "content": "data/detail/des",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "JSON(格式化为数组/字典)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "分类",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.doufu.la/category-' + params.filters.sex + '/' + params.filters.cat + '_' + params.filters.size + '_' + params.filters.status + '_' + params.filters.price + '_' + params.filters.sort + '_' + params.pageIndex;",
+        "list": "//div[@class='book book-base']",
+        "bookName": "//div[@class='book_mn']/h3/a",
+        "author": "//div[@class='book_sd']/div[@class='book_author']||@js:
+return result.replace(/ 著/, '');",
+        "cover": "//div[@class='book_sd']/a/img/@src",
+        "desc": "//div[@class='book_mn']/div[@class='book_ct']",
+        "cat": "//div[@class='book_mn']/div[@class='book_subtt']",
+        "status": "//div[@class='book_mn']/h3/span",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//div[@class='book_sd']/a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"10","requestFilters":[{"items":[{"title":"全部","value":"0"},{"title":"彩虹","value":"1"},{"title":"言情","value":"3"}],"key":"sex"},{"items":[{"title":"全部","value":"0"},{"title":"现言","value":"1"},{"title":"古言","value":"2"},{"title":"都市","value":"3"},{"title":"校园","value":"4"},{"title":"架空","value":"5"},{"title":"青春","value":"6"},{"title":"玄幻","value":"7"},{"title":"仙侠","value":"8"},{"title":"悬疑","value":"9"},{"title":"重生","value":"10"},{"title":"种田","value":"11"},{"title":"快穿","value":"12"},{"title":"系统","value":"13"},{"title":"娱乐","value":"14"},{"title":"女尊","value":"15"},{"title":"总裁","value":"16"},{"title":"长篇","value":"17"},{"title":"民国","value":"18"},{"title":"轻松","value":"21"},{"title":"主受","value":"22"},{"title":"傲娇受","value":"23"},{"title":"腹黑攻","value":"24"},{"title":"甜文","value":"25"},{"title":"傻白甜","value":"26"}],"key":"cat"},{"items":[{"title":"全部","value":"0"},{"title":"20万以下","value":"1"},{"title":"20～50万","value":"2"},{"title":"50万以上","value":"3"}],"key":"size"},{"items":[{"title":"全部","value":"0"},{"title":"连载","value":"1"},{"title":"完本","value":"2"}],"key":"status"},{"items":[{"title":"全部","value":"0"},{"title":"免费","value":"1"},{"title":"收费","value":"2"}],"key":"price"},{"items":[{"title":"综合排序","value":"1"},{"title":"收藏量","value":"2"},{"title":"综合分","value":"3"},{"title":"最近更新","value":"4"}],"key":"sort"}]}"
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "bookName": "",
+        "author": "",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "",
+        "requestParamsEncode": "",
+        "responseEncode": "",
+        "responseFormatType": "",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "",
+    "responseEncode": "",
+    "responseFormatType": "",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "",
+        "responseEncode": "",
+        "responseFormatType": "",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "",
+        "responseEncode": "",
+        "responseFormatType": "",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "",
+    "responseEncode": "",
+    "responseFormatType": "",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "",
+    "responseEncode": "",
+    "responseFormatType": "",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "",
+    "responseEncode": "",
+    "responseFormatType": "",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "",
+    "responseEncode": "",
+    "responseFormatType": "",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
