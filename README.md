@@ -5,13 +5,17 @@
 ## 2.52以及以上
 
 - 到书源管理界面 -> 更多 -> 创建新书源，把json文件里对应的params填入源里
+- 还没全部上传
 - （为啥不直接给xbs导入？更新了话麻烦死了，文件又不能在github上预览以及修改，导文件入入出出的很烦；让你自己填入源内容还可以让你去摸索自己如何写源；另外也希望开发者支持json源导入）
 
 ## 2.51以及以下
 
 - 复制链接，到app同步界面同步源
+  - `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/%E4%B8%AD%E6%96%87%E6%BA%90.md`
+  - `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/englishSource.md`
 - 格式是以.xbs尾或.md尾（.md则是多个源导入）
 - 如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可
+- 不维修
 
 # 介绍
 
