@@ -4,48 +4,48 @@ note: when searching, it is best to turn off filter unless you are searching exa
 
 #### text sources
 
-- **All Novel** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/allnovel.xbs`
+- **All Novel** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/allnovel.xbs`
 should be usable?
 
-- **novelupdates** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/novelupdates.xbs`
+- **novelupdates** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/novelupdates.xbs`
 chapter content rules must be edited based on which website your novel redirects to; chapters don't show up in order, rendering this source half useless
 
-- **booksvooks** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/booksvooks.xbs`
+- **booksvooks** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/booksvooks.xbs`
 all the chapters are under one list so loading may take a bit; if the app does not load the content, flip to last page then back
 
-- **sparknotes** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/sparknotes.xbs`
+- **sparknotes** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/sparknotes.xbs`
 sparknotes is sparknotes lmao, only has novel summaries
 
 #### comic sources
 
-- **bilibilicomics** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/bilibilicomics.xbs`
+- **bilibilicomics** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/bilibilicomics.xbs`
 should be usable?
 
-- **webtoon** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/WEBTOON.xbs`
+- **webtoon** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/WEBTOON.xbs`
 did not include discover rules but should be usable
 
-- **MangaOwl** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/mangaowl.xbs`
+- **MangaOwl** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/mangaowl.xbs`
 should be usable?
 
-- **lilymanga** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/lilymanga.xbs`
+- **lilymanga** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/lilymanga.xbs`
 should be usable?
 
-- **MangaDex** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/mangadex.xbs`
+- **MangaDex** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/mangadex.xbs`
 did not include discover rules but should be usable
 
-- **365Manga** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/365Manga.xbs`
+- **365Manga** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/365Manga.xbs`
 did not include discover rules but should be usable
 
-- **manga4life** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/manga4life.xbs`
+- **manga4life** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/manga4life.xbs`
 should be usable?
 
-- **mangago** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/mangago.xbs`
+- **mangago** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/mangago.xbs`
 should be usable, but will be slow because images require webview and is split into multiple pages
 
 #### audio sources
 
-- **mixes.cloud** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/Mixes.Cloud.xbs`
+- **mixes.cloud** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/Mixes.Cloud.xbs`
 searches for audio files people have uploaded, loading the file may take time as webview is used
 
-- **YouTube** `https://github.com/haitang-blossoms/xiangsesource/tree/main/xiangsesource-master/xiangsesource/socialkuaikan.xbs`
+- **YouTube** `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/xiangsesource/socialkuaikan.xbs`
 should be usable?
