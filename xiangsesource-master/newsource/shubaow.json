@@ -1,0 +1,304 @@
+{
+  "名称": "书宝网",
+  "host": "https://www.shubaow.net/",
+  "权重": "1",
+  "类型": "文本/小说",
+  "备注": "",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+return {'url':'https://cse.google.com/cse?cx=partner-pub-4707178218676583:2406864857&q=' + encodeURI(params.keyWord), 'webView':''};",
+    "list": "//div[@class='gsc-webResult gsc-result']",
+    "bookName": "(//a[@class='gs-title'])[1]||@js:
+return result.replace(/最新章节,.*?全文阅读/, '').replace(/,作者.*?/, '').replace(/_书宝网/, '');",
+    "author": "",
+    "cover": "//img/@src",
+    "desc": "//div[@class='gs-bidi-start-align gs-snippet']",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "(//a[@class='gs-title'])[1]/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "//*[@id='fmimg']/img/@src",
+    "desc": "//*[@id='intro']/p",
+    "cat": "//*[@id="wrapper"]/div[4]/div[1]/a[2]",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "//*[@id='info']/p[4]/a",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "//*[@id='list']/dl/dd",
+    "title": "//a",
+    "url": "//a/@href",
+    "nextPageUrl": "",
+    "updateTime": "//*[@id='info']/p[3]",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": "{"skipCount":9}"
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "//*[@id='content']",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "分类",
+      "rules": {
+        "请求信息": "https://m.shubaow.net/sort/%@filter_%@pageIndex/",
+        "list": "//div[@class='main1']/div[@class='fl_list']/div[@class='tt']",
+        "bookName": "//div[@class='right']/p[1]/a",
+        "author": "//div[@class='right']/label/p[2]/a",
+        "cover": "//div[@class='left']/a/img/@src",
+        "desc": "//div[@class='right']/p[2]",
+        "cat": "",
+        "status": "//div[@class='right']/div[@class='label']/p[1]",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//div[2]/p[1]/a/@href||@js:
+let one = result.replace('\/', '');
+return one.replace('\/', '_');",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"15","requestFilters":[{"items":[{"title":"玄幻言情","value":"1"},{"title":"仙侠言情","value":"2"},{"title":"现代情感","value":"3"},{"title":"古装迷情","value":"4"},{"title":"穿越重生","value":"5"},{"title":"网游科幻","value":"6"},{"title":"BG同人","value":"7"},{"title":"台湾言情","value":"8"},{"title":"其他言情","value":"9"},{"title":"耽美同人","value":"10"},{"title":"恐怖推理","value":"11"},{"title":"文学名著","value":"12"},{"title":"男频小说","value":"13"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "榜单",
+      "rules": {
+        "请求信息": "https://m.shubaow.net/top/%@filter_%@pageIndex/",
+        "list": "//div[@class='user_content']/div[@class='content_link']",
+        "bookName": "//p[2]/a",
+        "author": "//p[3]/a",
+        "cover": "//a/img/@src",
+        "desc": "//div[@class='right']/p[2]",
+        "cat": "//p[1]/a",
+        "status": "//div[@class='right']/div[@class='label']/p[1]",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//p[2]/a/@href||@js:
+let one = result.replace('\/', '');
+return one.replace('\/', '_');",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"20","requestFilters":[{"items":[{"title":"总推荐榜","value":"allvote"},{"title":"最新入库","value":"postdate"},{"title":"最新更新","value":"lastupdate"},{"title":"月推荐榜","value":"monthvote"},{"title":"周推荐榜","value":"weekvote"},{"title":"日推荐榜","value":"dayvote"},{"title":"字数排行","value":"size"},{"title":"总收藏榜","value":"goodnum"},{"title":"总点击榜","value":"allvisit"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "完本",
+      "rules": {
+        "请求信息": "https://m.shubaow.net/full/%@pageIndex/",
+        "list": "//div[@class='content_link']",
+        "bookName": "//p[2]/a",
+        "author": "//p[3]/a",
+        "cover": "//a/img/@src",
+        "desc": "//div[@class='right']/p[2]",
+        "cat": "//p[1]/a",
+        "status": "//div[@class='right']/div[@class='label']/p[1]",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//p[2]/a/@href||@js:
+let one = result.replace('\/', '');
+return one.replace('\/', '_');",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":15}"
+      }
+    },
+    {
+      "name": "好看的",
+      "rules": {
+        "请求信息": "https://www.shubaow.net/%@filter/",
+        "list": "//div[@class='r']/ul/li",
+        "bookName": "//span[@class='s2']/a",
+        "author": "//span[@class='s5']",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//span[@class='s2']/a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"15","requestFilters":[{"items":[{"title":"全部","value":""},{"title":"玄幻言情","value":"xuanhuanxiaoshuo"},{"title":"仙侠言情","value":"xiuzhenxiaoshuo"},{"title":"现代情感","value":"dushixiaoshuo"},{"title":"古装迷情","value":"chuanyuexiaoshuo"},{"title":"穿越重生","value":"chongsheng"},{"title":"网游科幻","value":"wangyouxiaoshuo"},{"title":"其他言情","value":"yangqing"},{"title":"耽美同人","value":"danmei"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "最近更新列表",
+      "rules": {
+        "请求信息": "https://www.shubaow.net/%@filter/",
+        "list": "//div[@class='l']/ul/li",
+        "bookName": "//span[@class='s2']/a",
+        "author": "//span[@class='s5']",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "//span[@class='s3']/a",
+        "detailUrl": "//span[@class='s2']/a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"15","requestFilters":[{"items":[{"title":"全部","value":""},{"title":"玄幻言情","value":"xuanhuanxiaoshuo"},{"title":"仙侠言情","value":"xiuzhenxiaoshuo"},{"title":"现代情感","value":"dushixiaoshuo"},{"title":"古装迷情","value":"chuanyuexiaoshuo"},{"title":"穿越重生","value":"chongsheng"},{"title":"网游科幻","value":"wangyouxiaoshuo"},{"title":"其他言情","value":"yangqing"},{"title":"耽美同人","value":"danmei"}],"key":"filter"}]}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "HTML(格式化为DOM)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
