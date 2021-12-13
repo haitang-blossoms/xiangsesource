@@ -70,7 +70,9 @@ return dat.mu;",
     {
       "name": "所有分类",
       "rules": {
-        "请求信息": "https://www.zhenhunxiaoshuo.com/%@filter",
+        "请求信息": "@js:
+let url = 'https://www.zhenhunxiaoshuo.com/' + params.filters.filter + params.pageIndex;
+return url.replace('1', '');",
         "list": "//table/tbody/tr",
         "bookName": "//td[1]/a",
         "author": "//td[2]",
@@ -86,7 +88,7 @@ return dat.mu;",
         "responseFormatType": "HTML(格式化为DOM)",
         "success": "",
         "JSParser": "",
-        "moreKeys": "{"pageSize":"4","requestFilters":[{"items":[{"title":"纯爱1","value":"chunai"},{"title":"纯爱2","value":"chunai2"},{"title":"纯爱3","value":"chunai3"},{"title":"纯爱4","value":"chunai4"},{"title":"言情1","value":"yanqing"},{"title":"言情2","value":"yanqing2"},{"title":"priest","value":"priest"}],"key":"filter"}]}"
+        "moreKeys": "{"pageSize":"148","requestFilters":[{"items":[{"title":"纯爱","value":"chunai"},{"title":"言情","value":"yanqing"}],"key":"filter"}]}"
       }
     },
     {
@@ -128,31 +130,14 @@ return dat.mu;",
   },
   "书单分组": [
     {
-      "name": "",
+      "name": "作者",
       "rules": {
-        "请求信息": "",
-        "list": "",
-        "title":"",
+        "请求信息": "https://www.zhenhunxiaoshuo.com/%E4%BD%9C%E8%80%85/",
+        "list": "//tbody/tr/td",
+        "title":"//a",
         "detail": "",
         "cover": "",
-        "url": "",
-        "requestParamsEncode": "utf-8",
-        "responseEncode": "utf-8",
-        "responseFormatType": "HTML(格式化为DOM)",
-        "success": "",
-        "JSParser": "",
-        "moreKeys": ""
-      }
-    },
-    {
-      "name": "",
-      "rules": {
-        "请求信息": "",
-        "list": "",
-        "title":"",
-        "detail": "",
-        "cover": "",
-        "url": "",
+        "url": "//a/@href",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "HTML(格式化为DOM)",
@@ -163,10 +148,11 @@ return dat.mu;",
     }
   ],
   "书单详情": {
-    "请求信息": "",
-    "list": "",
+    "请求信息": "@js:
+return encodeURI(params.queryInfo.url);",
+    "list": "//td",
     "detail": "",
-    "bookName": "",
+    "bookName": "//a",
     "author": "",
     "cover": "",
     "desc": "",
@@ -174,7 +160,7 @@ return dat.mu;",
     "status": "",
     "wordCount": "",
     "lastChapterTitle": "",
-    "detailUrl": "",
+    "detailUrl": "//a/@href",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
     "responseFormatType": "HTML(格式化为DOM)",
