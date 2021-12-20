@@ -5,6 +5,7 @@
   "权重": "1",
   "类型": "文本/小说",
   "备注": "",
+  "登录url":"https://www.doufu.la/login",
   "httpHeaders": "",
   "书籍搜索": {
     "请求信息": "https://www.doufu.la/search?kd=%@keyWord&page=%@pageIndex",
