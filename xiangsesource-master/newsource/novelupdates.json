@@ -4,6 +4,7 @@
   "权重": "1",
   "类型": "文本/小说",
   "备注": "导航网站；章节内容按照网站修改",
+  "登录url":"https://www.novelupdates.com/login/",
   "httpHeaders": "",
   "书籍搜索": {
     "请求信息": "https://www.novelupdates.com/?s=%@keyWord&post_type=seriesplans",
