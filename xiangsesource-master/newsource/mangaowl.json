@@ -4,6 +4,7 @@
   "权重": "1",
   "类型": "图片/漫画/壁纸",
   "备注": "",
+  "登录url":"https://mangaowl.com/login",
   "httpHeaders": "",
   "书籍搜索": {
     "请求信息": "https://r.mangaowls.com/search/%@pageIndex?search=%@keyWord",
