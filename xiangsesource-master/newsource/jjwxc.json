@@ -4,6 +4,7 @@
   "权重": "1",
   "类型": "文本/小说",
   "备注": "©",
+  "登录url":"https://my.jjwxc.net/login.php",
   "httpHeaders": "",
   "书籍搜索": {
     "请求信息": "http://app.jjwxc.net/iosapi/search?keyword=%@keyWord&page=%@pageIndex&type=1&searchType=1&sortMode=DESC",
