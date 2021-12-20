@@ -4,6 +4,7 @@
   "权重": "1",
   "类型": "文本/小说",
   "备注": "",
+  "登录url":"https://gongzicp.com/login/signin",
   "httpHeaders": "",
   "书籍搜索": {
     "请求信息": "https://webapi.gongzicp.com/search/novels?k=%@keyWord&page=%@pageIndex",
