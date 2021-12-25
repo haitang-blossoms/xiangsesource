@@ -47,7 +47,8 @@ return result.replace(/作者：/,'');",
     "title": "//a",
     "url": "//a/@href||@js:
 let dat = result.replace('javascript:$jmud(', '');
-return dat.replace(')', '');",
+let one = dat.replace(')', '');
+return one.replace('\/chapter\/', '');",
     "nextPageUrl": "",
     "updateTime": "",
     "requestParamsEncode": "utf-8",
