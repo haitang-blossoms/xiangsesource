@@ -1,0 +1,308 @@
+{
+  "名称": "猫儿fM",
+  "host": "https://www.missevan.com/",
+  "权重": "1",
+  "类型": "音频/音乐/听书",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "https://www.missevan.com/dramaapi/search?s=%@keyWord&p=%@pageIndex",
+    "list": "info/Datas",
+    "bookName": "name",
+    "author": "author",
+    "cover": "cover",
+    "desc": "abstract",
+    "cat": "type_name||catalog_name",
+    "status": "serialize",
+    "wordCount": "",
+    "lastChapterTitle": "newest",
+    "detailUrl": "id||@js:
+return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "info/drama/cover||info/album/front_cover",
+    "desc": "info/drama/abstract||info/album/intro",
+    "cat": "info/drama/type||info/drama/catalog_name",
+    "status": "info/drama/serialize",
+    "wordCount": "",
+    "lastChapterTitle": "info/drama/newest",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "info/episodes/episode||info/episodes/music||info/sounds",
+    "title": "name||soundstr",
+    "url": "sound_id||id",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "https://www.missevan.com/sound/getsound?soundid=%@result",
+    "content": "info/sound/soundurl",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "分类",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.missevan.com/dramaapi/search?s=' + encodeURI(params.filter) + '&page=' + params.pageIndex;",
+        "list": "info/Datas",
+        "bookName": "name",
+        "author": "author",
+        "cover": "cover",
+        "desc": "abstract",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "newest",
+        "detailUrl": "id||@js:
+return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":30,"requestFilters":{"广播剧":"广播剧","有声漫画":"有声漫画","有声小说":"有声小说"}}"
+      }
+    },
+    {
+      "name": "广播剧",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.missevan.com/dramaapi/filter?filters=' + params.filters.tag + '_' + params.filters.sex + '_' + params.filters.status + '_' + params.filters.timeperiod + '_0&page=' + params.pageIndex + '&order=' + params.filters.order;",
+        "list": "info/Datas",
+        "bookName": "name",
+        "author": "",
+        "cover": "cover",
+        "desc": "",
+        "cat": "type_name",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "newest",
+        "detailUrl": "id||@js:
+return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"title":"全部","value":"0"},{"title":"全一期","value":"3"},{"title":"微小剧","value":"4"},{"title":"长篇未完结","value":"1"},{"title":"长篇完结","value":"2"}],"key":"status"},{"items":[{"title":"全部","value":"0"},{"title":"现代","value":"1"},{"title":"古风","value":"2"},{"title":"民国","value":"3"},{"title":"其他","value":"4"}],"key":"timeperiod"},{"items":[{"title":"全部","value":"0"},{"title":"纯爱","value":"4"},{"title":"橘气","value":"5"},{"title":"言情","value":"6"},{"title":"全年龄","value":"3"}],"key":"sex"},{"items":[{"title":"全部","value":"0"},{"title":"甜","value":"201"},{"title":"虐","value":"37"},{"title":"HE","value":"40"},{"title":"搞笑","value":"28"},{"title":"架空","value":"192"},{"title":"宫廷","value":"157"},{"title":"灵异","value":"203"},{"title":"网配","value":"26"},{"title":"恐怖","value":"44"},{"title":"网游","value":"27"},{"title":"治愈","value":"1005"},{"title":"暗恋","value":"42"},{"title":"武侠","value":"46"},{"title":"BE","value":"39"},{"title":"奇幻","value":"47"},{"title":"玄幻","value":"823"},{"title":"悬疑","value":"50"},{"title":"日常","value":"948"},{"title":"强强","value":"45"},{"title":"同居","value":"111"},{"title":"校园","value":"112"},{"title":"欢脱","value":"190"},{"title":"温馨","value":"213"},{"title":"仙侠","value":"48"},{"title":"娱乐圈","value":"25"},{"title":"情有独钟","value":"193"},{"title":"相爱相杀","value":"32"},{"title":"多角关系","value":"195"},{"title":"恩怨情仇","value":"199"},{"title":"职场精英","value":"204"}],"key":"tag"},{"items":[{"title":"创建时间晚到早","value":"1"},{"title":"创建时间早到晚","value":"2"},{"title":"热度","value":"3"},{"title":"4","value":"4"},{"title":"最多追剧","value":"5"},{"title":"6","value":"6"}],"key":"order"}]}"
+      }
+    },
+    {
+      "name": "音单",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.missevan.com/explore/tagalbum?order=' + params.filters.sort + '&tid=' + params.filters.cat;",
+        "list": "albums",
+        "bookName": "title",
+        "author": "username",
+        "cover": "front_cover",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "id||@js:
+return '/sound/soundalllist?albumid=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"title":"0","value":"0"},{"title":"1","value":"1"}],"key":"sort"},{"items":[{"title":"全部","value":"0"},{"title":"热血","value":"170"},{"title":"治愈","value":"28"},{"title":"抖腿","value":"4421"},{"title":"玩游戏","value":"26310"},{"title":"运动听","value":"26311"},{"title":"作业向","value":"25"},{"title":"OP","value":"370"},{"title":"ED","value":"376"},{"title":"翻唱","value":"273"},{"title":"古风","value":"5"},{"title":"同人音乐","value":"850"},{"title":"游戏原声","value":"13349"},{"title":"广播剧","value":"4"}],"key":"cat"}]}"
+      }
+    },
+    {
+      "name": "有声漫画",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=96&type=' + params.filters.status + '&order=1&page=' + params.pageIndex + '&page_size=36';",
+        "list": "info/Datas",
+        "bookName": "name",
+        "author": "username",
+        "cover": "cover||front_cover",
+        "desc": "",
+        "cat": "type_name",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "newest||last_ord_str",
+        "detailUrl": "id||@js:
+return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":36,"requestFilters":[{"items":[{"title":"完结","value":"8"},{"title":"未完结","value":"7"},{"title":"全一期","value":"9"}],"key":"status"}]}"
+      }
+    },
+    {
+      "name": "听书",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=86&type=' + params.filters.type + '&order=1&page=' + params.pageIndex + '&page_size=36';",
+        "list": "info/Datas",
+        "bookName": "name",
+        "author": "username",
+        "cover": "cover||front_cover",
+        "desc": "",
+        "cat": "type_name",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "newest||last_ord_str",
+        "detailUrl": "id||@js:
+return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":36,"requestFilters":[{"items":[{"title":"轻小说","value":"1091"},{"title":"网络小说","value":"1093"},{"title":"儿童","value":"1098"}],"key":"type"}]}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
