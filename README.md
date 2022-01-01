@@ -8,6 +8,7 @@
 |||
 |--|--|
 |到书源管理界面 -> 更多 -> 创建新书源，把json文件里对应的params填入源里|go to manage booksources -> more -> create booksource, type in corresponding params given in json file|
+|json文件合集： jsdelivr `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/readme.md`|json file collection: github `https://github.com/haitang-blossoms/xiangsesource/blob/main/xiangsesource-master/readme.md`|
 |还没全部上传，新的源也待上传|not all sources have been uploaded yet, new sources will also be uploaded|
 |（为啥不直接给xbs导入？更新了话麻烦死了，文件又不能在github上预览以及修改，导文件入入出出的很烦；让你自己填入源内容还可以让你去摸索自己如何写源；另外也希望开发者支持json源导入）|(why not just export the xbs files? unfortunately xbs cannot be previewed on github so i'd rather have json that i can edit; it would be a great resource for you to learn how to write your own book sources too)|
 
