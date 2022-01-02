@@ -1,0 +1,283 @@
+{
+  "名称": "ishuyin",
+  "host": "https://m.ishuyin.com/",
+  "权重": "1",
+  "类型": "音频/音乐/听书",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+let url = 'https://m.ishuyin.com/e/search/index.php';
+let hp = {'keyboard':params.keyWord, 'show':'title,newstext,player,playadmin', 'submit':'搜索'};
+return {'url':url, 'httpParams':hp, 'POST':true};",
+    "list": "//ul[@id="showajaxnews"]/li",
+    "bookName": "//a/div[@class='info']/h3",
+    "author": "//a/div[@class='info']/div[@class='box']/span[@class='author']",
+    "cover": "//a/div[@class='img']/img/@src",
+    "desc": "//a/div[@class='info']/p",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "//a/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "//a[@class=''img-box Jhref']/img/@src",
+    "desc": "//p[@id="foldtxt"]",
+    "cat": "//div[@class='book-txt']/p[3]/text()[1]",
+    "status": "//div[@class='book-txt']/p[3]/text()[2]",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "//li[@class='chapter-item js_chapter_item']",
+    "title": "//h3/a/span",
+    "url": "//h3/a/@href",
+    "nextPageUrl": "",
+    "updateTime": "//p[@class='de-time']",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "@js:
+return {'url':result, 'webView':''};",
+    "content": "//audio/@src",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "有声小说",
+      "rules": {
+        "请求信息": "@js:
+return 'https://m.ishuyin.com/listinfo-' + encodeURI(params.filters.filter) + '-' + (params.pageIndex-1) + '.html';",
+        "list": "//ul[@id="showajaxnews"]/li",
+        "bookName": "//a/div[@class='info']/h3",
+        "author": "//a/div[@class='info']/div[@class='box']/span[@class='author']",
+        "cover": "//a/div[@class='img']/img/@src",
+        "desc": "//a/div[@class='info']/p",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":24,"requestFilters":[{"items":[{"value":"92","title":"武侠"},{"value":"63","title":"网游"},{"value":"60","title":"修真"},{"value":"58","title":"人物"},{"value":"56","title":"反腐"},{"value":"41","title":"职场"},{"value":"40","title":"军事"},{"value":"39","title":"推理"},{"value":"38","title":"文学"},{"value":"36","title":"穿越"},{"value":"33","title":"悬疑"},{"value":"16","title":"历史"},{"value":"8","title":"都市"},{"value":"7","title":"穿越"},{"value":"5","title":"恐怖"},{"value":"2","title":"玄幻"},{"value":"1","title":"言情"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "广播剧",
+      "rules": {
+        "请求信息": "@js:
+return 'https://m.ishuyin.com/listinfo-' + encodeURI(params.filters.filter) + '-' + (params.pageIndex-1) + '.html';",
+        "list": "//ul[@id="showajaxnews"]/li",
+        "bookName": "//a/div[@class='info']/h3",
+        "author": "//a/div[@class='info']/div[@class='box']/span[@class='author']",
+        "cover": "//a/div[@class='img']/img/@src",
+        "desc": "//a/div[@class='info']/p",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":24,"requestFilters":[{"items":[{"value":"54","title":"现代剧"},{"value":"51","title":"古风剧"},{"value":"12","title":"爱情剧"},{"value":"10","title":"耽美剧"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "评书",
+      "rules": {
+        "请求信息": "@js:
+return 'https://m.ishuyin.com/listinfo-' + encodeURI(params.filters.filter) + '-' + (params.pageIndex-1) + '.html';",
+        "list": "//ul[@id="showajaxnews"]/li",
+        "bookName": "//a/div[@class='info']/h3",
+        "author": "//a/div[@class='info']/div[@class='box']/span[@class='author']",
+        "cover": "//a/div[@class='img']/img/@src",
+        "desc": "//a/div[@class='info']/p",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":24,"requestFilters":[{"items":[{"value":"65","title":"王传林"},{"value":"62","title":"关永超"},{"value":"57","title":"郭德纲"},{"value":"55","title":"王玥波"},{"value":"53","title":"袁田"},{"value":"50","title":"其他"},{"value":"49","title":"孙一"},{"value":"48","title":"田战义"},{"value":"47","title":"张少佐"},{"value":"46","title":"连丽如"},{"value":"45","title":"袁阔成"},{"value":"44","title":"田连元"},{"value":"43","title":"刘兰芳"},{"value":"42","title":"单田芳"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "车载",
+      "rules": {
+        "请求信息": "@js:
+return 'https://m.ishuyin.com/listinfo-' + encodeURI(params.filters.filter) + '-' + (params.pageIndex-1) + '.html';",
+        "list": "//ul[@id="showajaxnews"]/li",
+        "bookName": "//a/div[@class='info']/h3",
+        "author": "//a/div[@class='info']/div[@class='box']/span[@class='author']",
+        "cover": "//a/div[@class='img']/img/@src",
+        "desc": "//a/div[@class='info']/p",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":24,"requestFilters":[{"items":[{"value":"77","title":"旅游"},{"value":"76","title":"生活"},{"value":"75","title":"公开课"},{"value":"74","title":"汽车"},{"value":"73","title":"相声小品"},{"value":"72","title":"搞笑"},{"value":"71","title":"情感"},{"value":"70","title":"音乐"},{"value":"69","title":"娱乐"},{"value":"68","title":"短剧"},{"value":"67","title":"资讯"}],"key":"filter"}]}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
