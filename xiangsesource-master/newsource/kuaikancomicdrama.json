@@ -1,0 +1,217 @@
+{
+  "名称": "快看漫剧",
+  "host": "",
+  "权重": "",
+  "类型": "",
+  "备注": "发现有限",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "",
+    "list": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "https://social.kkmh.com/v1/graph/compilation/%@result",
+    "cover": "data/cover",
+    "desc": "data/description",
+    "cat": "",
+    "status": "data/comicVideoAlbum/description",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "@js:
+let httpParams={'compilationId':params.queryInfo.detailUrl, 'page':params.pageIndex - 1, 'feedType':35};
+let httpHeaders={'accept-encoding':'gzip, deflate, br', 'accept-language':'zh-CN,zh;q=0.9', 'content-length':'61', 'content-type':'application/json;charset=UTF-8', 'dnt':'1', 'origin':'https://social.51kuaikan.com', 'referer':'https://social.51kuaikan.com/'};
+let url = 'https://social.kkmh.com/v1/graph/h5/unified_feed';
+return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders};",
+    "list": "data/universalModels",
+    "title": "post/summary||post/title",
+    "url": "post/idString",
+    "nextPageUrl": "@js:
+let httpParams={'compilationId':params.queryInfo.detailUrl, 'page':params.pageIndex - 1 + 1, 'feedType':35};
+let httpHeaders={'accept-encoding':'gzip, deflate, br', 'accept-language':'zh-CN,zh;q=0.9', 'content-length':'61', 'content-type':'application/json;charset=UTF-8', 'dnt':'1', 'origin':'https://social.51kuaikan.com', 'referer':'https://social.51kuaikan.com/'};
+let url = 'https://social.kkmh.com/v1/graph/h5/unified_feed';
+return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders};",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": "{"pageSize":30,"maxPage":1000}"
+  },
+  "章节内容": {
+    "请求信息": "https://social.51kuaikan.com/v1/graph/share/posts/%@result",
+    "content": "data/post/content[0]/hdUrl||data/post/content[0]/content",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "漫剧",
+      "rules": {
+        "请求信息": "https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/otherdependencies/allcomicdrama.json",
+        "list": "list",
+        "bookName": "bookName",
+        "author": "author",
+        "cover": "cover",
+        "desc": "desc",
+        "cat": "cat",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "detailUrl",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
