@@ -8,7 +8,6 @@
 |🔒为正版|🔒 represents official raws site|
 |🍪为可登录，可自行修改httpHeaders or 登录url，不一定会带来更多功能![](https://z3.ax1x.com/2021/10/17/5YnSdf.gif)|🍪represents source can login with cookies in httpHeaders or login url, may or may not bring additional functions|
 |🪧||
-currrently incomplete; 目前未完
 
 # 源-sources
 ## 文本-text
@@ -32,6 +31,7 @@ currrently incomplete; 目前未完
 |镇魂小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/zhenhunxiaoshuo.json`||||
 |358小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/35851.json`||||
 |维基阅读|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||书籍也可从书单寻|books can be searched for from the booklist|
+|AO3|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/archiveofourown.json`|🍪|18+需要cookie/登录；那么多标签我是不会写发现规则的|cookie/login required for 18+; what the heck there are so many tags no way am i writing rules for book explore|
 |sparknotes|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||你用这个app看学习资料干啥？？？|what are you doing reading study guides in this app for???|
 ||||||
 ## 图片-images
@@ -58,8 +58,16 @@ currrently incomplete; 目前未完
 |水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||QAQ 弄不懂maxPage分页规则需求，导致内容缺陷|sob cant figure out maxpage rules for separate pages thus some content will be lost|
 |Mixes.Cloud|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mixescloud.json`||单个音频为一个书籍|single audio equates one sole book|
 |猫耳fM|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/missevan.json`|🔒|||
+|网易云音乐|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/music163.json`|🔒|单个音频为一个书籍；可修改|single audio equates one sole book; can be edited|
+|ishuyin|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ishuyin.json`||||
+|西雅图中文电台|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/chineseradioseattle.json`||不知道为啥写了这个|idk why i wrote this|
+|克拉漫播|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manbo.json`|🔒|||
+|哔哩哔哩|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibiliaudio.json`|🔒|单个音频为一书籍；仅视频的音频，适合听书；可被修改来看视频（但视频没有音频）|single audio equates one sole book; suitable for listening to audiobooks; can be edited to view video|
+|喜马拉雅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ximalaya.json`|🔒|超多发现规则||
 ||||||
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
+|快看漫剧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kuaikancomicdrama.json`|🔒|发现有限，请帮忙找api或者查看[this guide](https://github.com/haitang-blossoms/xiangsesource/blob/main/xiangsesource-master/otherdependencies/addcomic.md)|explore is limited, would be great if you contributed the official api or a comic drama entry|
+|YouTube|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/youtube.json`|🔒🍪|单个视频为一书籍;使用的是第三方服务，2+小时时长不可看，可能会崩; 可被修改为听书源; 发现规则可修改moreKeys|single video equates one book; uses third party service, 2+ hour video may not work; can be edited to mp3; discover can be edited in moreKeys|
 ||||||
