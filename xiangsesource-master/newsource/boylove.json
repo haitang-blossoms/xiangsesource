@@ -207,7 +207,7 @@ return {'url':'https://boylove.cc/home/api/getComment', 'POST':true, 'httpParams
     "responseFormatType": "格式化为数组/字典(json)",
     "success": "",
     "JSParser": "",
-    "moreKeys": ""
+    "moreKeys": "{"pageSize":15,"requestFilters":[{"items":[{"title":"最火评论","value":"hot"},{"title":"最新评论","value":"new"},{"title":"默认排序","value":"asc"}],"key":"sort"}]}"
   },
   "广场": {
     "请求信息": "",
