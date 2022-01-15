@@ -189,22 +189,23 @@ return 'https://manwa.me/book/' + result;",
     "moreKeys": ""
   },
   "书本评论": {
-    "请求信息": "",
-    "list": "",
-    "title": "",
-    "detail": "",
-    "replyCount": "",
-    "createdTime": "",
-    "fromUserName": "",
-    "fromUserCover": "",
+    "请求信息": "@js:
+return 'https://manwa.me/commentmore?commentid=0&book_id=' + params.queryInfo.detailUrl.replace('/book/', '') + '&sort=1&page=' + params.pageIndex;",
+    "list": "list",
+    "title": "chapter_name",
+    "detail": "content",
+    "replyCount": "reply_count",
+    "createdTime": "create_time",
+    "fromUserName": "username",
+    "fromUserCover": "cover",
     "score": "",
     "url": "",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
-    "responseFormatType": "格式化为DOM(html)",
+    "responseFormatType": "格式化为数组/字典M(json)",
     "success": "",
     "JSParser": "",
-    "moreKeys": ""
+    "moreKeys": "{"pageSize":5}"
   },
   "广场": {
     "请求信息": "",
