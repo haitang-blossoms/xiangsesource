@@ -69,16 +69,16 @@ return params.queryInfo.detailUrl + '&pageNum=' + (params.pageIndex+1);",
   },
   "书籍分类": [
     {
-      "name": "",
+      "name": "分类",
       "rules": {
-        "请求信息": "",
+        "请求信息": "https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?meta=&sort=0&page=%@pageIndex&perPage=30&category=%@filter",
         "list": "data/albums",
         "bookName": "title",
         "author": "anchorName",
         "cover": "coverPath",
         "desc": "",
         "cat": "",
-        "status": "",
+        "status": "isFinished",
         "wordCount": "",
         "lastChapterTitle": "",
         "detailUrl": "albumId||@js:
@@ -88,11 +88,34 @@ return 'https://www.ximalaya.com/revision/album/v1/getTracksList?albumId=' + res
         "responseFormatType": "格式化为数组/字典(json)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"title":"全部","value":"youshengshu&subcategory="},{"title":"言情","value":"youshengshu&subcategory=yanqing"},{"title":"文学","value":"youshengshu&subcategory=wenxue"},{"title":"悬疑","value":"youshengshu&subcategory=xuanyi"},{"title":"生活","value":"youshengshu&subcategory=shenghuo"},{"title":"都市","value":"youshengshu&subcategory=dushi"},{"title":"教材","value":"youshengshu&subcategory=jiaocai"},{"title":"幻想","value":"youshengshu&subcategory=huanxiang"},{"title":"经典","value":"youshengshu&subcategory=jingdian"},{"title":"武侠","value":"youshengshu&subcategory=wuxia"},{"title":"童书","value":"youshengshu&subcategory=tongshu"},{"title":"历史小说","value":"youshengshu&subcategory=lishixiaoshuo"},{"title":"成长","value":"youshengshu&subcategory=lizhi"},{"title":"社科","value":"youshengshu&subcategory=sheke"},{"title":"商业","value":"youshengshu&subcategory=shangye"},{"title":"外文原版","value":"youshengshu&subcategory=yingwenyuanban"},{"title":"期刊杂志","value":"youshengshu&subcategory=qikanzazhi"},{"title":"历史","value":"youshengshu&subcategory=reci234"},{"title":"官场商战","value":"youshengshu&subcategory=reci407"},{"title":"女生最爱","value":"youshengshu&subcategory=reci346"},{"title":"男生最爱","value":"youshengshu&subcategory=reci348"},{"title":"QQ阅读","value":"youshengshu&subcategory=reci22"},{"title":"中信书院","value":"youshengshu&subcategory=reci646"},{"title":"博集新媒","value":"youshengshu&subcategory=reci26"},{"title":"磨铁阅读","value":"youshengshu&subcategory=reci394"},{"title":"蓝狮子","value":"youshengshu&subcategory=reci419"},{"title":"华章图书","value":"youshengshu&subcategory=reci650"},{"title":"大剧必听榜","value":"youshengshu&subcategory=reci1051"},{"title":"音乐","value":"yinyue"},{"title":"乡村","value":"yinyue&subcategory=xiangcun"},{"title":"流行","value":"yinyue&subcategory=liuxing"},{"title":"欧美","value":"=yinyue&subcategory=reci507"},{"title":"古典","value":"yinyue&subcategory=mr8t41"},{"title":"蓝调","value":"yinyue&subcategory=landiao"},{"title":"老歌","value":"yinyue&subcategory=reci117"},{"title":"翻唱","value":"yinyue&subcategory=reci125"},{"title":"轻音乐","value":"yinyue&subcategory=qingyinyue"},{"title":"电台","value":"yinyue&subcategory=reci309"},{"title":"催眠","value":"yinyue&subcategory=reci322"},{"title":"相声","value":"xiangsheng&subcategory=xiangsheng"},{"title":"郭德纲","value":"xiangsheng&subcategory=reci556"},{"title":"岳云鹏","value":"xiangsheng&subcategory=reci1478"},{"title":"小品","value":"xiangsheng&subcategory=xiaopin"},{"title":"评书","value":"xiangsheng&subcategory=pingshu"},{"title":"脱口秀","value":"duanzi&subcategory="}],"key":"filter"}]}"
       }
     },
     {
-      "name": "",
+      "name": "关键词",
+      "rules": {
+        "请求信息": "http://search.ximalaya.com/speed/album/v1/list?condition=relation&core=album&device=android&fq=categoryId:3&kw=%@filter&page=%@pageIndex&rows=20&spellchecker=true",
+        "list": "response/docs",
+        "bookName": "title",
+        "author": "nickname",
+        "cover": "cover_path",
+        "desc": "intro",
+        "cat": "category_title",
+        "status": "is_finished",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "id||@js:
+return 'https://www.ximalaya.com/revision/album/v1/getTracksList?albumId=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":20,"requestFilters":[{"items":[{"title":"玄幻","value":"玄幻"},{"title":"大剧","value":"大剧"},{"title":"仙侠","value":"仙侠"},{"title":"都市","value":"都市"},{"title":"经典","value":"经典"},{"title":"幻想","value":"幻想"},{"title":"武侠","value":"武侠"},{"title":"纯爱","value":"纯爱"},{"title":"历史小说","value":"历史小说"},{"title":"教材","value":"教材"},{"title":"多人剧","value":"多人剧"},{"title":"相声","value":"相声"},{"title":"外文原版","value":"英文原版"},{"title":"名著","value":"名著"},{"title":"乡村","value":"乡村"},{"title":"广播剧","value":"广播剧"},{"title":"游戏","value":"游戏"},{"title":"无限","value":"无限"},{"title":"魔幻","value":"魔法"},{"title":"音乐","value":"音乐"},{"title":"乡村","value":"乡村"},{"title":"流行","value":"流行Top"},{"title":"排行榜","value":"榜单"},{"title":"老歌","value":"老歌"},{"title":"巅峰榜","value":"巅峰榜"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "注意⚠️以下规则可用于不同的请求信息+moreKeys，表示list,bookname,author,cover,detailurl是统一的，写入规则复制然后按照这个tree里的另一个tree修改请求和morekeys",
       "rules": {
         "请求信息": "",
         "list": "data/albums",
@@ -111,7 +134,154 @@ return 'https://www.ximalaya.com/revision/album/v1/getTracksList?albumId=' + res
         "responseFormatType": "格式化为数组/字典(json)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "",
+        "另一个tree":[
+                      {
+                          "分类名称": "有声书",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "音乐",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "相声评书",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "段子",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "情感生活",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "娱乐",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "影视",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "儿童",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "历史",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "商业财经",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "人文",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "个人成长",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "IT科技",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "外语",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "少儿素养",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "头条",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "二次元",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "戏曲",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "旅游",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "健康养生",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "时尚生活",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "广播剧",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "粤语",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "法律课堂",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "教育培训",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "建党百年",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "品牌之声",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "汽车",
+                          "请求头": "",
+                          "moreKeys": ""
+                        },
+                        {
+                          "分类名称": "闽南语",
+                          "请求头": "",
+                          "moreKeys": ""
+                        }
+                      ]
       }
     }
   ],
