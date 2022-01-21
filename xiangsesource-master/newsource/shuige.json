@@ -29,7 +29,7 @@
     "请求信息": "",
     "cover": "//figure/img/@src",
     "desc": "//main[@id="main-container"]",
-    "cat": "",
+    "cat": "//section[@class='tags']/a",
     "status": "",
     "wordCount": "",
     "lastChapterTitle": "",
