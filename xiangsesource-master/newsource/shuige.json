@@ -3,7 +3,7 @@
   "host": "https://www/shuige.club/",
   "权重": "1",
   "类型": "音频/音乐/听书",
-  "备注": "QAQ maxPage规则需求导致内容缺陷",
+  "备注": "QAQ maxPage规则需求导致内容多余",
   "登录url":"",
   "httpHeaders": "",
   "书籍搜索": {
@@ -46,15 +46,17 @@
     "title": "//@data-tracktitle||//figcaption",
     "url": "//@data-audiopath||//audio/@src||@js:
 return encodeURI(result);",
-    "nextPageUrl": "@js:
-return params.queryInfo.detailUrl + (params.pageIndex+1) + '/';",
+    "nextPageUrl": "//div[@class='page-links']/span/text()||@js:
+let pag = (Number(result)+1);
+let link = params.queryInfo.detailUrl + pag + '/';
+return link;",
     "updateTime": "//section[@class='modified-date']",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
     "responseFormatType": "格式化为DOM(html)",
     "success": "",
     "JSParser": "",
-    "moreKeys": "{"pageSize":100}"
+    "moreKeys": "{"pageSize":100,"maxPage":15}"
   },
   "章节内容": {
     "请求信息": "",
