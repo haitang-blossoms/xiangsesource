@@ -33,6 +33,7 @@
 |维基阅读|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||书籍也可从书单寻|books can be searched for from the booklist|
 |AO3|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/archiveofourown.json`|🍪|18+需要cookie/登录；那么多标签我是不会写发现规则的|cookie/login required for 18+; what the heck there are so many tags no way am i writing rules for book explore|
 |sparknotes|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||你用这个app看学习资料干啥？？？|what are you doing reading study guides in this app for???|
+|mmKuu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mmkuu.json`||||
 ||||||
 ## 图片-images
 |源名-source name|链接-link|标注|备注|notes|
