@@ -14,7 +14,7 @@
 
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
-|晋江文学城-Jinjiang Literature City|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/jjwxc.json`|🔒🍪|章节内容请求头可选填，不填反而快点但有的书籍内容显示不了；若不想看到VIP，章节标题规则可修改；高高级搜索若使app崩溃或导致使用体验慢可以修改moreKeys和请求头||
+|晋江文学城-Jinjiang Literature City|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/jjwxc.json`|🔒🍪|||
 |豆腐小说-Doufu Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/doufu.json`|🔒|||
 |书耽小说-Shudan Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shubl.json`|🔒🍪|||
 |长佩文学-Changpei Literature|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/gongzicp.json`|🔒🍪|发现板块有点内容获取缺失的问题，但大部分应该能用|discover rules have a slight content problem, but most of it should work|
@@ -40,7 +40,7 @@
 |哔哩哔哩漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilimanga.json`|🔒|||
 |Bilibili Comics|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilicomics.json`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |腾讯动漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/macqq.json`|🔒🍪|||
-|Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangaowl.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|网站采用cloudflare浏览器检查，所以我使用了Google网页快照：代表更新可能检索不到，且较新的漫画使用不了|the site is using cloudflare browser checks so a Google webpage cache is used to bypass it, which means content may not update and newer releases are not accessible QAQ|
+|Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangaowl.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|网站采用cloudflare浏览器检查，所以我使用了Google网页快照：代表更新可能检索不到，且较新的漫画使用不了|the site is using cloudflare browser checks so a Google webpage cache is used to bypass it, which means content may not update and newer releases (anything not cached by Google) are not accessible QAQ|
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manwa.json`|🍪|||
 |mangadex|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangadex.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |365Manga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/365manga.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
@@ -55,7 +55,7 @@
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
 |New Temp Drama House|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/tempyuriradiohouse.json`||单个音频为一个书籍|single audio equates one sole book|
-|水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||QAQ 弄不懂maxPage分页规则需求，导致内容缺陷|sob cant figure out maxpage rules for separate pages thus some content will be lost|
+|水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||||
 |Mixes.Cloud|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mixescloud.json`||单个音频为一个书籍|single audio equates one sole book|
 |猫耳fM|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/missevan.json`|🔒|||
 |网易云音乐|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/music163.json`|🔒|单个音频为一个书籍；可修改|single audio equates one sole book; can be edited|
