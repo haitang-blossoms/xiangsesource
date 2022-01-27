@@ -45,8 +45,8 @@
     "list": "chapterlist",
     "title": "@js:
 return result.chaptername + ' ' + result.chapterMessage;",
-    "url": "chapterid||@js:
-return '/onebook.php?novelid=' + params.queryInfo.detailUrl + '&chapterid=' + result;",
+    "url": "@js:
+return 'http://app-cdn.jjwxc.net/androidapi/chapterContent?novelId=' + params.queryInfo.detailUrl + '&chapterId=' + result.chapterid;",
     "nextPageUrl": "",
     "updateTime": "",
     "requestParamsEncode": "utf-8",
@@ -57,16 +57,15 @@ return '/onebook.php?novelid=' + params.queryInfo.detailUrl + '&chapterid=' + re
     "moreKeys": ""
   },
   "章节内容": {
-    "请求信息": "@js:
-return {'url':result, 'webView':''};",
-    "content": "//div[@class='noveltext']/text()||//ul[@class='root']/li[1]/ul/li[1]||//td[@class='novelbody']/div/text()",
+    "请求信息": "",
+    "content": "content",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
-    "responseFormatType": "HTML(格式化为DOM)",
+    "responseFormatType": "JSON(格式化为数组/字典)",
     "success": "",
     "JSParser": "",
-    "moreKeys": ""
+    "moreKeys": "{"removeHtmlKeys":["content"]}"
   },
   "书籍分类": [
     {
