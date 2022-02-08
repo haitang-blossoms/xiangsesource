@@ -69,25 +69,26 @@ return {'url':result, 'webView':''};",
   },
   "书籍分类": [
     {
-      "name": "",
+      "name": "recent",
       "rules": {
-        "请求信息": "",
-        "list": "",
-        "bookName": "",
-        "author": "",
+        "请求信息": "https://archiveofourown.org/works",
+        "list": "//ol/li",
+        "bookName": "//div[@class='header module']/h4/a[1]",
+        "author": "//div[@class='header module']/h4/a[@rel='author']",
         "cover": "",
-        "desc": "",
-        "cat": "",
-        "status": "",
+        "desc": "//ul[@class='tags commas']||//blockquote[@class='userstuff summary']",
+        "cat": "//h5[@class='fandoms heading']",
+        "status": "//dl[@class='stats']",
         "wordCount": "",
         "lastChapterTitle": "",
-        "detailUrl": "",
+        "detailUrl": "//div[@class='header module']/h4/a[1]/@href||@js:
+return result + '/navigate';",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为DOM(html)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "{"pageSize":20}"
       }
     },
     {
