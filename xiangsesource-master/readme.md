@@ -69,6 +69,6 @@
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
-|快看漫剧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kuaikancomicdrama.json`|🔒|发现有限，请帮忙找api或者查看[this guide](https://github.com/haitang-blossoms/xiangsesource/blob/main/xiangsesource-master/otherdependencies/addcomic.md)|explore is limited, would be great if you contributed the official api or a comic drama entry|
+|快看漫剧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kuaikancomicdrama.json`|🔒|||
 |YouTube|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/youtube.json`|🔒🍪|单个视频为一书籍;使用的是第三方服务，2+小时时长不可看，可能会崩; 可被修改为听书源; 发现规则可修改moreKeys|single video equates one book; uses third party service, 2+ hour video may not work; can be edited to mp3; discover can be edited in moreKeys|
 ||||||
