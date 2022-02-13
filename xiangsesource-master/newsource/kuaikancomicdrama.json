@@ -141,7 +141,7 @@ return result.title + ' ' + result.subtitle;",
         "responseFormatType": "格式化为数组/字典(json)",
         "success": "",
         "JSParser": "",
-        "moreKeys": "{"pageSize":20,"requestFilters":[{"items":[{"value":"module_id=1155&module_type=44","title":"新剧上线"},{"value":"module_id=1148&module_type=45","title":"热播推荐"},{"value":"module_id=1308&module_type=45","title":"完结精选"},{"value":"module_id=1229&module_type=45","title":"VIP提前看"},{"value":"module_id=1169&module_type=45","title":"种草基地"},
+        "moreKeys": "{"pageSize":20,"requestFilters":[{"items":[{"value":"module_id=1174&module_type=44","title":"高质量漫剧LOOK"},{"value":"module_id=1155&module_type=44","title":"新剧上线"},{"value":"module_id=1148&module_type=45","title":"热播推荐"},{"value":"module_id=1308&module_type=45","title":"完结精选"},{"value":"module_id=1229&module_type=45","title":"VIP提前看"},{"value":"module_id=1169&module_type=45","title":"种草基地"},
 {"value":"module_id=1256&module_type=45","title":"恋爱天花板满足你一切幻想"},{"value":"module_id=1257&module_type=45","title":"都市生活费裹挟下的爱与被爱"},{"value":"module_id=1259&module_type=45","title":"魔男魔女不打架，在线谈恋爱！"},{"value":"module_id=1255&module_type=45","title":"只要姐姐开口，我愿做你的裙下之臣"},{"value":"module_id=1265&module_type=45","title":"论那些让我熬夜追的上头剧"},{"value":"module_id=1258&module_type=45","title":"公子，要卜一卦姻缘吗？"},{"value":"module_id=1266&module_type=45","title":"日常治愈一切不可爱"}],"key":"filter"}]}"
       }
     }
