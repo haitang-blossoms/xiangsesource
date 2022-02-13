@@ -69,3 +69,32 @@ json文件：https://gitee.com/haitang-blossoms/xiangsesource/blob/master/otherd
 
 
 希望有人能看得懂此胡言乱语且实用
+
+
+## 2: 百度搜索规则
+
+若您想搞书源的网址并未提供搜索功能，可以以以下百度站内规则适用：
+
+```
+{
+    "请求信息": "https://m.baidu.com/s?pn=1&word=%@keyWord%20site:[***此处替换为网址域名***]",
+    "list": "//div[@class='c-result result']",
+    "bookName": "//article/header/div/div/h3/span",
+    "author": "",
+    "cover": "",
+    "desc": "//article/section/div/div/section/div/div/div/a/div/div/span/span",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "//div/@data-log||@js:
+let dat = JSON.parse(result);
+return dat.mu;",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "HTML(格式化为DOM)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+```
