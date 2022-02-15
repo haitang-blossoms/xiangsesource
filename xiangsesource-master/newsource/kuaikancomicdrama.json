@@ -42,16 +42,17 @@
   },
   "章节列表": {
     "请求信息": "@js:
-let httpParams={'compilationId':params.queryInfo.detailUrl, 'page':params.pageIndex - 1, 'feedType':35};
+let httpParams={'compilationId': params.queryInfo.detailUrl, 'page':params.pageIndex - 1, 'feedType':35};
 let httpHeaders={'accept-encoding':'gzip, deflate, br', 'accept-language':'zh-CN,zh;q=0.9', 'content-length':'61', 'content-type':'application/json;charset=UTF-8', 'dnt':'1', 'origin':'https://social.51kuaikan.com', 'referer':'https://social.51kuaikan.com/'};
 let url = 'https://social.kkmh.com/v1/graph/h5/unified_feed';
-return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders};",
+return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders,'autoRequestMore':true};",
     "list": "data/universalModels",
     "title": "post/summary||post/title",
     "url": "post/idString",
     "nextPageUrl": "@js:
-let httpParams={'compilationId':result, 'page':params.pageIndex - 1 + 1, 'feedType':35};
+let httpParams={'compilationId':params.queryInfo.detailUrl, 'page':params.pageIndex, 'feedType':35};
 let httpHeaders={'accept-encoding':'gzip, deflate, br', 'accept-language':'zh-CN,zh;q=0.9', 'content-length':'61', 'content-type':'application/json;charset=UTF-8', 'dnt':'1', 'origin':'https://social.51kuaikan.com', 'referer':'https://social.51kuaikan.com/'};
+
 let url = 'https://social.kkmh.com/v1/graph/h5/unified_feed';
 return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders};",
     "updateTime": "",
