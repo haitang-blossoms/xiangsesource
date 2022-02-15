@@ -1,14 +1,14 @@
 
 {
   "名称": "豆腐小说",
-  "host": "https://doufu.la/",
+  "host": "https://doufuyuedu.com/",
   "权重": "1",
   "类型": "文本/小说",
   "备注": "",
-  "登录url":"https://www.doufu.la/login",
+  "登录url":"https://www.doufuyuedu.com/login",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://www.doufu.la/search?kd=%@keyWord&page=%@pageIndex",
+    "请求信息": "https://www.doufuyuedu.com/search?kd=%@keyWord&page=%@pageIndex",
     "list": "//div[@class='book book-base']",
     "bookName": "//div[@class='book_mn']/h3/a",
     "author": "//div[@class='book_sd']/div[@class='book_author']||@js:
@@ -59,7 +59,7 @@ return result.substr(index+8);",
     "moreKeys": ""
   },
   "章节内容": {
-    "请求信息": "http://api.doufu.la/index.php/post/view/%@result?with_ids=1&type=read",
+    "请求信息": "https://api.doufuyuedu.com/index.php/post/view/%@result?type=read",
     "content": "data/detail/des",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
@@ -74,7 +74,7 @@ return result.substr(index+8);",
       "name": "分类",
       "rules": {
         "请求信息": "@js:
-return 'https://www.doufu.la/category-' + params.filters.sex + '/' + params.filters.cat + '_' + params.filters.size + '_' + params.filters.status + '_' + params.filters.price + '_' + params.filters.sort + '_' + params.pageIndex;",
+return 'https://www.doufuyuedu.com/category-' + params.filters.sex + '/' + params.filters.cat + '_' + params.filters.size + '_' + params.filters.status + '_' + params.filters.price + '_' + params.filters.sort + '_' + params.pageIndex;",
         "list": "//div[@class='book book-base']",
         "bookName": "//div[@class='book_mn']/h3/a",
         "author": "//div[@class='book_sd']/div[@class='book_author']||@js:
