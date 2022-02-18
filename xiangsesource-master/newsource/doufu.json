@@ -224,12 +224,12 @@ return result.replace(/ 著/, '');",
     "moreKeys": ""
   },
   "热词": {
-    "请求信息": "",
-    "list": "",
-    "title": "",
-    "requestParamsEncode": "",
-    "responseEncode": "",
-    "responseFormatType": "",
+    "请求信息": "https://m.doufuyuedu.com/api/getHotSearch",
+    "list": "l",
+    "title": "l",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
     "success": "",
     "JSParser": "",
     "moreKeys": ""

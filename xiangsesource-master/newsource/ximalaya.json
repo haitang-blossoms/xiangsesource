@@ -27,11 +27,14 @@ return 'https://www.ximalaya.com/revision/album/v1/getTracksList?albumId=' + res
     "moreKeys": ""
   },
   "书籍详情": {
-    "请求信息": "",
-    "cover": "",
-    "desc": "",
-    "cat": "",
-    "status": "",
+    "请求信息": "@js:
+let dat = params.queryInfo.detailUrl.replace('https://www.ximalaya.com/revision/album/v1/getTracksList?albumId=', '');
+return 'https://www.ximalaya.com/revision/album/v1/simple?albumId=' + dat;",
+    "cover": "data/albumPageMainInfo/cover",
+    "desc": "@js:
+return result.data.albumPageMainInfo.customTitle + '\n' + result.data.albumPageMainInfo.shortIntro;",
+    "cat": "$..tags",
+    "status": "data/albumPageMainInfo/albumStatus",
     "wordCount": "",
     "lastChapterTitle": "",
     "requestParamsEncode": "utf-8",
@@ -225,8 +228,9 @@ params.filters.content + params.filters.people + params.filters.level + params.f
                         },
                         {
                           "分类名称": "少儿素养",
-                          "请求头": "",
-                          "moreKeys": ""
+                          "请求头": "@js:
+return 'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?category=ertongjiaoyu&subcategory=' + params.filters.subcategory + '&meta=' + params.filters.type + '&sort=' + params.filters.sort + '&page=' + params.pageIndex + '&perPage=30';",
+                          "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"value":"","title":"全部"},{"value":"yuwen","title":"语文"},{"value":"shuxue","title":"数学"},{"value":"yingyu","title":"英语"},{"value":"zirankepu","title":"自然科普"},{"value":"lishi","title":"历史"},{"value":"dili","title":"地理"},{"value":"yishu","title":"艺术"},{"value":"kexue","title":"科学"},{"value":"nenglisuyang","title":"能力素养"},{"value":"reci1557","title":"教材教辅"},{"value":"reci1545","title":"音乐"},{"value":"reci1546","title":"美术"},{"value":"reci1560","title":"益智棋类"},{"value":"reci1570","title":"创意手工"},{"value":"reci1540","title":"文学鉴赏"},{"value":"reci1542","title":"课外读物"},{"value":"reci1554","title":"自然地理"},{"value":"reci1587","title":"世界历史"},{"value":"reci1569","title":"天文物理"},{"value":"reci1556","title":"军事科技"},{"value":"reci1568","title":"少儿编程"},{"value":"reci1558","title":"情商养成"},{"value":"reci1559","title":"安全教育"},{"value":"reci1566","title":"艺术启蒙"},{"value":"reci1580","title":"表演主持"}],"key":"subcategory"},{"items":[{"title":"全部","value":""},{"value":"243_3622","title":"学前"},{"value":"243_5400","title":"小学"},{"value":"243_5401","title":"初中"},{"value":"243_5402","title":"高中"}],"key":"type"},{"items":[{"title":"综合排序","value":"0"},{"title":"播放最多","value":"2"},{"title":"最近更新","value":"1"}],"key":"sort"}]}"
                         },
                         {
                           "分类名称": "头条",
