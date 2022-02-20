@@ -34,6 +34,8 @@
 |AO3|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/archiveofourown.json`|🍪|18+需要cookie/登录；那么多标签我是不会写发现规则的|cookie/login required for 18+; what the heck there are so many tags no way am i writing rules for book explore|
 |sparknotes|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||你用这个app看学习资料干啥？？？|what are you doing reading study guides in this app for???|
 |mmKuu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mmkuu.json`||||
+|香香腐宅小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/boylovenovel.json`||||
+|耽美小说大全|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/dmxsdq.json`||全文为单一章节||
 ||||||
 ## 图片-images
 |源名-source name|链接-link|标注|备注|notes|
@@ -64,7 +66,10 @@
 |西雅图中文电台|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/chineseradioseattle.json`||不知道为啥写了这个|idk why i wrote this|
 |克拉漫播|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manbo.json`|🔒|||
 |哔哩哔哩|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibiliaudio.json`|🔒|单个音频为一书籍；仅视频的音频，适合听书；可被修改来看视频（但视频没有音频）|single audio equates one sole book; suitable for listening to audiobooks; can be edited to view video|
-|喜马拉雅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ximalaya.json`|🔒|超多发现规则||
+|喜马拉雅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ximalaya.json`|🔒|超多发现规则，持续更新||
+|轻音社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/fuciyuanbang.json`||||
+|MuXiv Music|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/muxiv.json`||||
+|听书王|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wukongks.json`||||
 ||||||
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
