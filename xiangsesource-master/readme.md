@@ -18,6 +18,7 @@
 |豆腐小说-Doufu Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/doufu.json`|🔒|||
 |书耽小说-Shudan Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shubl.json`|🔒🍪|||
 |长佩文学-Changpei Literature|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/gongzicp.json`|🔒🍪|发现板块有点内容获取缺失的问题，但大部分应该能用|discover rules have a slight content problem, but most of it should work|
+|寒武纪年|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/hanwujinian.json`|🔒|||
 |笔趣阁xswang|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/biqugexswang.json`|🍪|||
 |笔下文学|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bxwxorg.json`|🍪|||
 |腐小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/xpsam.json`|🍪|||
@@ -62,6 +63,7 @@
 |水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||||
 |Mixes.Cloud|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mixescloud.json`||单个音频为一个书籍|single audio equates one sole book|
 |猫耳fM|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/missevan.json`|🔒|||
+|寒武纪年|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ahnwujinianyousheng.json`|🔒|||
 |网易云音乐|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/music163.json`|🔒|单个音频为一个书籍；可修改|single audio equates one sole book; can be edited|
 |ishuyin|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ishuyin.json`||||
 |西雅图中文电台|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/chineseradioseattle.json`||不知道为啥写了这个|idk why i wrote this|
