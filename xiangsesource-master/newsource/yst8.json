@@ -1,0 +1,241 @@
+{
+  "名称": "有声小说大全api",
+  "host": "http://yst8-service.iphone2030.com/",
+  "权重": "1",
+  "类型": "音频/音乐/听书",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "search","key" : params.keyWord,"page" : params.pageIndex}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+    "list": "list",
+    "bookName": "title",
+    "author": "voice",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "state",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "bookid",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "getlistendetail","bookid" : params.queryInfo.detailUrl}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+    "cover": "",
+    "desc": "brief",
+    "cat": "category",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "getlistendetail","bookid" : params.queryInfo.detailUrl}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+    "list": "list",
+    "title": "chapter",
+    "url": "href||@js:
+return config.host + result;",
+    "nextPageUrl": "",
+    "updateTime": "time",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "function functionName(config, params, result)
+{
+	return JSON.stringify({'urls':params.queryInfo.url});
+}",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "cat",
+      "rules": {
+        "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "getlistenlist","categoryid" : params.filters.filter,"page" : params.pageIndex}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+        "list": "list",
+        "bookName": "title",
+        "author": "voice",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "state",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "bookid",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"title":"单田芳","value":"63"},{"title":"刘兰芳","value":"64"},{"title":"田连元","value":"65"},{"title":"袁阔成","value":"66"},{"title":"连丽如","value":"67"},{"title":"张少佐","value":"68"},{"title":"田战义","value":"69"},{"title":"孙一","value":"70"},{"title":"关永超","value":"71"},{"title":"马长辉","value":"72"},{"title":"王玥波","value":"73"},{"title":"昊儒书场","value":"74"},{"title":"粤语评书","value":"75"},{"title":"其他评书","value":"76"},{"title":"网络玄幻","value":"77"},{"title":"都市言情","value":"78"},{"title":"恐怖悬疑","value":"79"},{"title":"百家讲坛","value":"80"},{"title":"历史军事","value":"81"},{"title":"刑侦推理","value":"82"},{"title":"官场商战","value":"83"},{"title":"武侠小说","value":"84"},{"title":"人物纪实","value":"85"},{"title":"相声小品","value":"86"},{"title":"童话寓言","value":"87"},{"title":"英文读物","value":"88"},{"title":"广播剧","value":"89"},{"title":"有声文学","value":"90"},{"title":"今日头条","value":"91"},{"title":"健康养生","value":"92"},{"title":"综艺娱乐","value":"93"},{"title":"汽车音乐","value":"94"},{"title":"脱口秀","value":"123"},{"title":"商业财经","value":"124"},{"title":"地方戏曲","value":"125"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "hot",
+      "rules": {
+        "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "hotrank"}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+        "list": "list",
+        "bookName": "title",
+        "author": "voice",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "state",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "bookid",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "@js:
+return {'url':'http://yst8-service.iphone2030.com/service/app.php', 'POST':true, 'httpParams':{"cmd" : "hotsearch"}, 'httpHeaders':{'host':'yst8-service.iphone2030.com', 'user-agent':'有声小说大全/1.7.7CFNetwork/1329Darwin/21.3.0', 'accept-encoding':'gzip, deflate', 'accept-language':'zh-cn', 'connection':'keep-alive', 'content-type':'application/json; charset=UTF-8'}};",
+    "list": "list",
+    "title": "title",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}

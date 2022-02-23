@@ -42,6 +42,7 @@
 |--|--|--|--|--|
 |哔哩哔哩漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilimanga.json`|🔒|||
 |Bilibili Comics|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilicomics.json`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
+|Bilibili Comics中文|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilicomicszw.json`|🔒|||
 |腾讯动漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/macqq.json`|🔒🍪|||
 |Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangaowl.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|网站采用cloudflare浏览器检查，所以我使用了Google网页快照：代表更新可能检索不到，且较新的漫画使用不了|the site is using cloudflare browser checks so a Google webpage cache is used to bypass it, which means content may not update and newer releases (anything not cached by Google) are not accessible QAQ|
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manwa.json`|🍪|||
@@ -70,6 +71,7 @@
 |轻音社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/fuciyuanbang.json`||||
 |MuXiv Music|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/muxiv.json`||||
 |听书王|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wukongks.json`||||
+|有声小说大全api|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/yst8.json`||||
 ||||||
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
