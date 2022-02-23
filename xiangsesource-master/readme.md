@@ -45,12 +45,13 @@
 |Bilibili Comics|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilicomics.json`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Bilibili Comics中文|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibilicomicszw.json`|🔒|||
 |腾讯动漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/macqq.json`|🔒🍪|||
-|Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangaowl.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|网站采用cloudflare浏览器检查，所以我使用了Google网页快照：代表更新可能检索不到，且较新的漫画使用不了|the site is using cloudflare browser checks so a Google webpage cache is used to bypass it, which means content may not update and newer releases (anything not cached by Google) are not accessible QAQ|
+|Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangaowl.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪||🔪cloudflare deems this source unusable|
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manwa.json`|🍪|||
 |mangadex|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangadex.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |365Manga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/365manga.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |Manga4Life|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manga4life.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |Lilymanga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/lilymanga.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
+|MangaHasu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangahasu.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Suburban Fairy Tales|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/francisbonnet.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|没多少但是三格漫我挺推荐的|there's not much but the comic is one i recommend|
 |快看漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kkmh.json`|🔒🍪|||
 |香香腐宅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/boylove.json`|🍪|||
@@ -63,7 +64,7 @@
 |水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||||
 |Mixes.Cloud|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mixescloud.json`||单个音频为一个书籍|single audio equates one sole book|
 |猫耳fM|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/missevan.json`|🔒|||
-|寒武纪年|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ahnwujinianyousheng.json`|🔒|||
+|寒武纪年|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/hanwujinianyousheng.json`|🔒|||
 |网易云音乐|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/music163.json`|🔒|单个音频为一个书籍；可修改|single audio equates one sole book; can be edited|
 |ishuyin|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ishuyin.json`||||
 |西雅图中文电台|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/chineseradioseattle.json`||不知道为啥写了这个|idk why i wrote this|
