@@ -234,8 +234,9 @@ return 'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?categ
                         },
                         {
                           "分类名称": "头条",
-                          "请求头": "",
-                          "moreKeys": ""
+                          "请求头": "@js:
+return 'https://www.ximalaya.com/revision/category/queryCategoryPageAlbums?category=toutiao&subcategory=' + params.filters.subcategory + '&meta=' + params.filters.type + params.filters.pay + '&sort=' + params.filters.sort + '&page=' + params.pageIndex + '&perPage=30';",
+                          "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"value":"","title":"全部"},{"value":"shehui","title":"社会"},{"value":"minsheng","title":"民生"},{"value":"guonei","title":"国内"},{"value":"guoji","title":"国际"},{"value":"caijing","title":"财经"},{"value":"yule","title":"娱乐"},{"value":"wenhua","title":"文化"},{"value":"tiyu","title":"体育"},{"value":"keji","title":"科技"},{"value":"junshi","title":"军事"},{"value":"tinglianghui","title":"听两会"},{"value":"reci1707","title":"体育资讯"},{"value":"reci1708","title":"体育播客"},{"value":"reci1709","title":"传记"},{"value":"reci1710","title":"足球"},{"value":"reci1711","title":"篮球"},{"value":"reci1712","title":"俱乐部电台"},{"value":"reci1713","title":"上新推荐"}],"key":"subcategory"},{"items":[{"title":"全部","value":""},{"value":"10_362-","title":"资讯"},{"value":"10_187-","title":"脱口秀"},{"value":"10_426-","title":"专题"},{"value":"10_364-","title":"访谈"},{"value":"10_363-","title":"评论"}],"key":"type"},{"items":[{"title":"全部","value":""},{"title":"付费","value":"132_2721"},{"title":"免费","value":"132_2722"}],"key":"pay"},{"items":[{"title":"综合排序","value":"0"},{"title":"播放最多","value":"2"},{"title":"最近更新","value":"1"}],"key":"sort"}]}"
                         },
                         {
                           "分类名称": "二次元",
