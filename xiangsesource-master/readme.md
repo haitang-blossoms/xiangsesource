@@ -57,6 +57,10 @@
 |快看漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kkmh.json`|🔒🍪|||
 |香香腐宅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/boylove.json`|🍪|||
 |包子漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/baozimh.json`||||
+|腐漫漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/fumanmi.json`||||
+|漫画魂|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manhuahun.json`||||
+|K漫画啦|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kanmanhuala.json`||||
+|国漫吧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/guomanla.json`||||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
