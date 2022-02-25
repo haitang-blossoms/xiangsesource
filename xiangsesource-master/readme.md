@@ -49,6 +49,7 @@
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manwa.json`|🍪|||
 |mangadex|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangadex.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |365Manga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/365manga.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
+|MangaTuli|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangatuli.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |Manga4Life|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manga4life.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |Lilymanga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/lilymanga.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |MangaHasu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mangahasu.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
@@ -70,7 +71,7 @@
 |西雅图中文电台|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/chineseradioseattle.json`||不知道为啥写了这个|idk why i wrote this|
 |克拉漫播|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manbo.json`|🔒|||
 |哔哩哔哩|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bilibiliaudio.json`|🔒|单个音频为一书籍；仅视频的音频，适合听书；可被修改来看视频（但视频没有音频）|single audio equates one sole book; suitable for listening to audiobooks; can be edited to view video|
-|喜马拉雅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ximalaya.json`|🔒|超多发现规则，持续更新||
+|喜马拉雅|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/ximalaya.json`|🔒|超多发现规则，可累死个我勒不会写更全啦，有需求就自行上网站找专辑再搜索呗||
 |轻音社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/fuciyuanbang.json`||||
 |MuXiv Music|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/muxiv.json`||||
 |听书王|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wukongks.json`||||
