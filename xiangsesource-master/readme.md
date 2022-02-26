@@ -61,6 +61,7 @@
 |漫画魂|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manhuahun.json`||||
 |K漫画啦|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kanmanhuala.json`||||
 |国漫吧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/guomanla.json`||||
+|歪歪腐漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/waiwaifu.json`||||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
