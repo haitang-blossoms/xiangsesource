@@ -175,6 +175,32 @@ return {'url':url, 'POST':true, 'httpParams':hp, 'httpHeaders':{'user-agent':'co
         "JSParser": "",
         "moreKeys": "{"pageSize":"38","requestFilters":[{"items":[{"title":"All","value":"-1"},{"title":"Romance","value":"13"},{"title":"Teen","value":"20"},{"title":"BL","value":"3"},{"title":"Fantasy","value":"11"},{"title":"Mystery","value":"17"},{"title":"Harem","value":"15"},{"title":"Suspense","value":"41"},{"title":"Comedy","value":"14"},{"title":"Historical","value":"12"},{"title":"Eastern","value":"30"},{"title":"GL","value":"16"},{"title":"Action","value":"19"},{"title":"Adventure","value":"22"},{"title":"Slice of Life","value":"21"},{"title":"Horror","value":"23"}],"key":"styleId"},{"items":[{"title":"All","value":"-1"},{"title":"Ongoing","value":"0"},{"title":"Completed","value":"1"}],"key":"isFinish"},{"items":[{"title":"Interest","value":"0"},{"title":"Popularity","value":"1"},{"title":"Update","value":"2"}],"key":"order"}]}"
       }
+    },
+    {
+      "name": "分类",
+      "rules": {
+        "请求信息": "@js:
+let fl = params.filters;
+let hp = {'style_id':fl.styleId, 'area_id':fl.areaId, 'is_finish':fl.isFinish, 'order':fl.order, 'is_free':-1, 'page_num':params.pageIndex, 'page_size':39};
+let url = 'https://www.bilibilicomics.com/twirp/comic.v1.Comic/ClassPage?device=pc&platform=web&lang=cn&sys_lang=cn';
+return {'url':url, 'POST':true, 'httpParams':hp, 'httpHeaders':{'user-agent':'comic-universal/1135 Cronet/81.4044.156 Darwin/20.3.0'}};",
+        "list": "data",
+        "bookName": "title",
+        "author": "",
+        "cover": "vertical_cover",
+        "desc": "",
+        "cat": "",
+        "status": "is_finish",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "season_id",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":"38","requestFilters":[{"items":[{"title":"All","value":"-1"},{"title":"校园","value":"18"},{"title":"恋爱","value":"13"},{"title":"少女","value":"20"},{"title":"耽美","value":"3"},{"title":"奇幻","value":"11"},{"title":"都市","value":"9"},{"title":"Mystery","value":"17"},{"title":"Harem","value":"15"},{"title":"悬疑","value":"41"},{"title":"Comedy","value":"14"},{"title":"古风","value":"12"},{"title":"玄幻","value":"30"},{"title":"百合","value":"16"},{"title":"热血","value":"19"},{"title":"冒险","value":"22"},{"title":"Horror","value":"23"},{"title":"科幻","value":"8"}],"key":"styleId"},{"items":[{"title":"All","value":"-1"},{"title":"Ongoing","value":"0"},{"title":"Completed","value":"1"}],"key":"isFinish"},{"items":[{"title":"Interest","value":"0"},{"title":"Popularity","value":"1"},{"title":"Update","value":"2"}],"key":"order"}]}"
+      }
     }
   ],
   "书单搜索": {
