@@ -23,6 +23,7 @@
 |笔趣阁xswang|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/biqugexswang.json`|🍪|||
 |笔下文学|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/bxwxorg.json`|🍪|||
 |腐小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/xpsam.json`|🍪|||
+|可乐小说网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/xklxsw.json`|🍪|||
 |梦阮小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mengruan.json`||||
 |All Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/allnovel.json`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |书宝网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shubaow.json`|🍪|||
