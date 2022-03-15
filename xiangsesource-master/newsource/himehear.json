@@ -1,0 +1,241 @@
+{
+  "名称": "听姬",
+  "host": "https://www.himehear.com/",
+  "权重": "1",
+  "类型": "音频/音乐/听书",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+return {'url':'https://www.himehear.com/tjapp/v1/home/drama/searching', 'POST':true, 'httpParams':{'key':params.keyWord, 'pageSize':20, 'category':'drama', 'pageNum':params.pageIndex}, 'httpHeaders':{'accept':'application/json', 'content-type':'application/json;charset=UTF-8'}};",
+    "list": "result",
+    "bookName": "radioDramaName",
+    "author": "@js:
+return result.author + ' ' + result.studioName;",
+    "cover": "radioImg||@js:
+return 'https://tingjifm-pub.oss-cn-shenzhen.aliyuncs.com/' +result;",
+    "desc": "introduction",
+    "cat": "@js:
+return result.radioStyle + ' ' + result.category;",
+    "status": "radioState",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "id",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "https://www.himehear.com/tjapp/v1/works/detail?radioId=%@result",
+    "list": "result/partDramas",
+    "title": "dramaName",
+    "url": "dramaPath||@js:
+return 'https://tingjifm-pub.oss-cn-shenzhen.aliyuncs.com/' + result;",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "@js:
+return params.queryInfo.url;",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "广播剧",
+      "rules": {
+        "请求信息": "@js:
+return 'https://www.himehear.com/tjapp/v1/works/list?category=drama' + params.filters.radioStyle + params.filters.processState + params.filters.feeType + params.filters.radioType + params.filters.timeState;",
+        "list": "result",
+        "bookName": "radioDramaName",
+        "author": "studioName",
+        "cover": "radioImg||@js:
+return 'https://tingjifm-pub.oss-cn-shenzhen.aliyuncs.com/' +result;",
+        "desc": "introduction",
+        "cat": "@js:
+return result.radioStyle + ' ' + result.category;",
+        "status": "radioState",
+        "wordCount": "",
+        "lastChapterTitle": "latestName",
+        "detailUrl": "id",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":[{"key":"radioStyle","items":[{"title":"全部","value":""},{"title":"现代","value":"&radioStyle=xiandai"},{"title":"古风","value":"&radioStyle=gufeng"},{"title":"民国","value":"&radioStyle=minguo"},{"title":"其他","value":"&radioStyle=qita"}]},{"key":"processState","items":[{"title":"全部","value":""},{"title":"已完结","value":"&processState=2"},{"title":"更新中","value":"&processState=1"}]},{"key":"feeType","items":[{"title":"全部","value":""},{"title":"免费","value":"&feeType=free"},{"title":"付费","value":"&feeType=fee"}]},{"key":"radioType","items":[{"title":"全部","value":""},{"title":"橘气","value":"&radioType=bh"},{"title":"大女主","value":"&radioType=dnz"},{"title":"无CP","value":"&radioType=wcp"},{"title":"BH","value":"&radioType=bh3"},{"title":"全年龄","value":"&radioType=qn3"},{"title":"言情","value":"&radioType=yq3"},{"title":"其他","value":"&radioType=qt3"}]},{"key":"timeState","items":[{"title":"全部","value":""},{"title":"最近更新","value":"&timeState=latest_update"},{"title":"最新上架","value":"&timeState=latest_create"}]}]}"
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "bookName": "",
+        "author": "",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "@js:
+return {'url':'https://www.himehear.com/tjapp/v1/hotkey/search/hotkey', 'POST':true, 'httpParams':{'pageNum':params.pageIndex, 'category':'drama', 'pageSize':20}};",
+    "list": "result",
+    "title": "keyName",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
