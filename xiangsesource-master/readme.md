@@ -64,6 +64,7 @@
 |国漫吧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/guomanla.json`||||
 |歪歪腐漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/waiwaifu.json`||||
 |漫画库|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manhuacool.json`||||
+|言耽社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/yandanshe.json`||||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
