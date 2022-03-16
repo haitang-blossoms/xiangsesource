@@ -222,12 +222,12 @@ return 'https://mangaowl.com/search/' + params.pageIndex + '?search=&search_fiel
     "moreKeys": ""
   },
   "热词": {
-    "请求信息": "",
-    "list": "",
-    "title": "",
+    "请求信息": "https://cdn.openowlnow.com/live_search/%@keyWord?su_key=undefined",
+    "list": "l",
+    "title": "name",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
-    "responseFormatType": "格式化为DOM(html)",
+    "responseFormatType": "格式化为数组/字典(json)",
     "success": "",
     "JSParser": "",
     "moreKeys": ""
