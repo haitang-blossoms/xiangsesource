@@ -74,6 +74,7 @@
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
 |New Temp Drama House|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/tempyuriradiohouse.json`||单个音频为一个书籍|single audio equates one sole book|
+|Miniaudiobook|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/miniaudiobook.json`||单个音频为一个书籍|single audio equates one sole book|
 |水哥故事会|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shuige.json`||||
 |Mixes.Cloud|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mixescloud.json`||单个音频为一个书籍|single audio equates one sole book|
 |猫耳fM|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/missevan.json`|🔒|||
