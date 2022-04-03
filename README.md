@@ -2,6 +2,8 @@
 |--|--|
 |2.52新版本采用不同规则性，旧源新源文件都保留|version 2.52 and above uses different rules, old versions will not work but source files will be kept in this repository|
 
+[如果你是香色闺阁的开发者，请点击此链接](https://github.com/haitang-blossoms/xiangsesource/blob/main/%E8%87%B4%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E4%B8%80%E4%BA%9B.md)
+
 # xiangsesource import-导入
 
 ## 2.52&above以及以上
