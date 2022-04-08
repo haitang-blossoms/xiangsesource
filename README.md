@@ -31,8 +31,8 @@
 
 #### 交流区-chat
 
-- 我的开黑啦服务器 https://kaihei.co/EjFVc9
-  - 新成员似乎需要用户认证才能添加角色分组看到其他文字频道
+- QQ频道搜“香色闺阁”
+
 - 搜索到的讨论
   - https://www.douban.com/group/topic/248603097/?_i=68715433dhHlQS,68715583dhHlQS
   - https://tieba.baidu.com/f?kw=%E9%A6%99%E8%89%B2%E9%97%BA%E9%98%81&ie=utf-8&tab=main
