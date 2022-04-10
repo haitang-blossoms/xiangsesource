@@ -14,6 +14,7 @@
 
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
+|词条精选|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/popularword.json`||||
 |晋江文学城-Jinjiang Literature City|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/jjwxc.json`|🔒🍪|||
 |豆腐小说-Doufu Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/doufu.json`|🔒|有的发现规则并不会真的筛选，自己按照app的规模探索一下哪些combo有效||
 |书耽小说-Shudan Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/shubl.json`|🔒🍪|||
@@ -37,10 +38,11 @@
 |358小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/35851.json`||||
 |维基阅读|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||书籍也可从书单寻|books can be searched for from the booklist|
 |AO3|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/archiveofourown.json`|🍪|18+需要cookie/登录；那么多标签我是不会写发现规则的|cookie/login required for 18+; what the heck there are so many tags no way am i writing rules for book explore|
-|sparknotes|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/wikiyuedu.json`||你用这个app看学习资料干啥？？？|what are you doing reading study guides in this app for???|
+|sparknotes|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/sparknotes.json`||你用这个app看学习资料干啥？？？|what are you doing reading study guides in this app for???|
 |mmKuu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mmkuu.json`||||
 |香香腐宅小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/boylovenovel.json`||||
 |耽美小说大全|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/dmxsdq.json`||全文为单一章节||
+|52书库|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/52shukuwang.json`||||
 ||||||
 ## 图片-images
 |源名-source name|链接-link|标注|备注|notes|
@@ -70,6 +72,7 @@
 |漫画库|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/manhuacool.json`||||
 |言耽社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/yandanshe.json`||单章节不可看，懒得修复|single chapter not viewable|
 |香蕉漫画网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/zanbangguoji.json`||||
+|My Hero Academia Manga Online|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/mhamanga.json`|||only MHA|
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
@@ -98,4 +101,5 @@
 |快看漫剧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/kuaikancomicdrama.json`|🔒|||
 |YouTube|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/youtube.json`|🔒🍪|单个视频为一书籍;使用的是第三方服务，2+小时时长不可看，可能会崩; 可被修改为听书源; 发现规则可修改moreKeys|single video equates one book; uses third party service, 2+ hour video may not work; can be edited to mp3; discover can be edited in moreKeys|
 |Animeowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/animeowl.json`||||
+|Google Drive自定义|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newsource/googledrive.json`|🍪|可自行修改成另类类型，别的资源|can self edit into other content types, other resources|
 ||||||
