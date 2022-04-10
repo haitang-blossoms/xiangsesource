@@ -1,13 +1,13 @@
 {
   "名称": "香香腐宅",
-  "host": "https://boylove.house/",
+  "host": "https://boylove.live/",
   "权重": "1",
   "类型": "图片/漫画/壁纸",
   "备注": "",
-  "登录url":"https://boylove.house/home/auth/login/type/login.html",
+  "登录url":"https://boylove.live/home/auth/login/type/login.html",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://boylove.house/home/api/searchk?keyword=%@keyWord&type=1&pageNo=%@pageIndex",
+    "请求信息": "https://boylove.live/home/api/searchk?keyword=%@keyWord&type=1&pageNo=%@pageIndex",
     "list": "result/list",
     "bookName": "title",
     "author": "auther",
@@ -18,7 +18,7 @@
     "wordCount": "",
     "lastChapterTitle": "last_chapter_title",
     "detailUrl": "id||@js:
-return 'https://boylove.house/home/book/index/id/' + result;",
+return 'https://boylove.live/home/book/index/id/' + result;",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
     "responseFormatType": "格式化为数组/字典(json)",
@@ -66,7 +66,7 @@ return result.replace('最后更新', '');",
     "responseFormatType": "格式化为数组/字典(json)",
     "success": "",
     "JSParser": "function functionName(config, jsparams, result) {
-let dat = result.content.split('\n').map(s => `https://boylove.house${s}`);
+let dat = result.content.split('\n').map(s => `https://boylove.live${s}`);
 return JSON.stringify({'urls': dat});
 }",
     "moreKeys": ""
@@ -75,7 +75,7 @@ return JSON.stringify({'urls': dat});
     {
       "name": "首页",
       "rules": {
-        "请求信息": "https://boylove.cc/home/api/getpage/tp/1-%@filter-%3C,%@pageIndex",
+        "请求信息": "https://boylove.live/home/api/getpage/tp/1-%@filter-%3C,%@pageIndex",
         "list": "result/list",
         "bookName": "title",
         "author": "auther",
@@ -86,7 +86,7 @@ return JSON.stringify({'urls': dat});
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
         "detailUrl": "id||@js:
-return 'https://boylove.house/home/book/index/id/' + result;",
+return 'https://boylove.live/home/book/index/id/' + result;",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为数组/字典(json)",
@@ -99,7 +99,7 @@ return 'https://boylove.house/home/book/index/id/' + result;",
       "name": "分类",
       "rules": {
         "请求信息": "@js:
-return 'https://boylove.house/home/api/cate/tp/1-' + encodeURI(params.filters.type) + '-' + params.filters.status + '-1-' + params.pageIndex + '-' + params.filters.rou + '-2-1';",
+return 'https://boylove.live/home/api/cate/tp/1-' + encodeURI(params.filters.type) + '-' + params.filters.status + '-1-' + params.pageIndex + '-' + params.filters.rou + '-1-2';",
         "list": "result/list",
         "bookName": "title",
         "author": "auther",
@@ -110,7 +110,7 @@ return 'https://boylove.house/home/api/cate/tp/1-' + encodeURI(params.filters.ty
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
         "detailUrl": "id||@js:
-return 'https://boylove.house/home/book/index/id/' + result;",
+return 'https://boylove.live/home/book/index/id/' + result;",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为数组/字典(json)",
@@ -192,7 +192,7 @@ return 'https://boylove.house/home/book/index/id/' + result;",
   },
   "书本评论": {
     "请求信息": "@js:
-return {'url':'https://boylove.cc/home/api/getComment', 'POST':true, 'httpParams':{'manhua_id':params.queryInfo.detailUrl.replace('https:\/\/boylove.house\/home\/book\/index\/id\/', ''), 'page':params.pageIndex, 'loadMod':params.filters.sort, 'force': false}};",
+return {'url':'https://boylove.cc/home/api/getComment', 'POST':true, 'httpParams':{'manhua_id':params.queryInfo.detailUrl.replace('https:\/\/boylove.live\/home\/book\/index\/id\/', ''), 'page':params.pageIndex, 'loadMod':params.filters.sort, 'force': false}};",
     "list": "result/list",
     "title": "",
     "detail": "content",
