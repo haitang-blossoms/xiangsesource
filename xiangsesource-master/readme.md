@@ -69,7 +69,7 @@
 |歪歪腐漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/waiwaifu.xbs`||||
 |漫画库|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/manhuacool.xbs`||||
 |言耽社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/yandanshe.xbs`||单章节不可看，懒得修复|single chapter not viewable|
-|香蕉漫画网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/zanbangguoji.xbs`||||
+|香蕉漫画网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/xiangjiao.xbs`||||
 |My Hero Academia Manga Online|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mhamanga.xbs`|||only MHA|
 ||||||
 ## 音频-audio

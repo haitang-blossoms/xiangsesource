@@ -1,13 +1,13 @@
 {
   "名称": "香蕉漫画网",
-  "host": "https://www.zanbangguoji.com/",
+  "host": "https://www.djwjx.com/",
   "权重": "1",
   "类型": "图片/漫画/壁纸",
   "备注": "",
   "登录url":"",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://www.zanbangguoji.com/index.php/search?key=%@keyWord",
+    "请求信息": "https://www.djwjx.com/index.php/search?key=%@keyWord",
     "list": "//div[@class='cy_list_mh']/ul",
     "bookName": "//li[@class='title']/a",
     "author": "",
@@ -71,7 +71,7 @@ return result.reverse();",
       "name": "分类",
       "rules": {
         "请求信息": "@js:
-return 'https://www.zanbangguoji.com/category/list/' + params.filters.list + '/tags/' + params.filters.tags + '/pay/' + params.filters.pay + '/finish/' + params.filters.finish + '/page/' + params.pageIndex;",
+return 'https://www.djwjx.com/category/list/' + params.filters.list + '/tags/' + params.filters.tags + '/pay/' + params.filters.pay + '/finish/' + params.filters.finish + '/page/' + params.pageIndex;",
         "list": "//div[@class='cy_list_mh']/ul",
         "bookName": "//li[@class='title']/a",
         "author": "",
