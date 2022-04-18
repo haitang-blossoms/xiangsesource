@@ -75,7 +75,9 @@ return 'https://manwa.me/forInject/' + result + '.html';",
       "name": "排行榜",
       "rules": {
         "请求信息": "https://manwa.me/rank",
-        "list": "//ul[@class='rank-list']/a",
+        "list": "@js:
+let xpath = '//ul[@id="rankList_' + params.filters.cat + '"]/a';
+return result.queryWithXPath(xpath);",
         "bookName": "//p[@class='rank-list-info-right-title']",
         "author": "",
         "cover": "//img/@data-original",
@@ -90,7 +92,7 @@ return 'https://manwa.me/forInject/' + result + '.html';",
         "responseFormatType": "格式化为DOM(html)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "{"requestFilters":"cat\n新番榜::1\n人气榜::2\n完结榜::3"}"
       }
     },
     {
