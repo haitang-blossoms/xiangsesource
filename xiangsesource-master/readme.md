@@ -13,6 +13,7 @@
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
 |词条精选|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/popularword.xbs`||||
+|Goodreads|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/goodreads.xbs`||评论+书单，无正文内容；不止小说，漫画评论都有|comments+book lists, no book content; not only novels, but comics are also included because peopl decide to submit them as entries...|
 |晋江文学城-Jinjiang Literature City|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/jjwxc.xbs`|🔒🍪|||
 |豆腐小说-Doufu Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/doufu.xbs`|🔒|有的发现规则并不会真的筛选，自己按照app的规模探索一下哪些combo有效||
 |书耽小说-Shudan Novel|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/shubl.xbs`|🔒🍪|||
