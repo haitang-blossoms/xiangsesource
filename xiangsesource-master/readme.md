@@ -48,6 +48,7 @@
 |哔哩哔哩漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/bilibilimanga.xbs`|🔒|||
 |Bilibili Comics|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/bilibilicomics.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
 |腾讯动漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/macqq.xbs`|🔒🍪|||
+|Webtoons|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/webtoons.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🔒🍪|||
 |Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangaowl.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪||🔪cloudflare deems this source unusable|
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/manwa.xbs`|🍪|||
 |mangadex|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangadex.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||

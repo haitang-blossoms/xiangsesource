@@ -1,0 +1,219 @@
+{
+  "名称": "Webtoons",
+  "host": "https://www.webtoons.com/",
+  "权重": "1",
+  "类型": "图片漫画壁纸",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "https://www.webtoons.com/en/search?keyword=%@keyWord",
+    "list": "//ul/li",
+    "bookName": "//p[@class='subj']",
+    "author": "//p[@class='author']",
+    "cover": "//img/@src",
+    "desc": "",
+    "cat": "//p[contains(@class, 'genre')]",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "//a/@href||@js:
+return 'https://m.webtoons.com' + result;",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": "{"skipCount":7}"
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "@js:
+let url = result;
+let httpHeaders = {'user-agent':'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36'};
+return {'url':url, 'httpHeaders':httpHeaders};",
+    "list": "//li[contains(@id, 'episode_')]||@js:
+return result.reverse();",
+    "title": "//p[@class='sub_title']",
+    "url": "//a/@href||@js:
+return result.replace('m.webtoons.com', 'www.webtoons.com');",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "//*[@id='_imageList']/img/@data-url || @js:
+let urls = result.replace(/webtoon/g, 'mwebtoon');
+return JSON.stringify({'urls':urls, 'httpHeaders':{'Referer':params.responseUrl}});",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "genres",
+      "rules": {
+        "请求信息": "",
+        "list": "@js:
+let xpath = '//ul[@class="card_lst"][' + params.filters.cat + ']/li/a';
+return result.queryWithXPath(xpath);",
+        "bookName": "//p[@class='subj']",
+        "author": "//p[@class='author']",
+        "cover": "//img/@src",
+        "desc": "",
+        "cat": "//p[contains(@class, 'genre')]",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"cat\n Drama::1\nFantasy::2\nComedy::3\nAction::4\nSlice of Life::5\nRomance::6\nSuperhero::7\nSci-fi::8\nThriller::9\nSupernatural::10\nMystery::11\nSports::12\nHistorical::13\nHeartwarming::14\nHorror::15\nInformative::16\n\nsort\nPopularity::READ_COUNT\nLikes::LIKEIT\nDate::UPDATE"}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
