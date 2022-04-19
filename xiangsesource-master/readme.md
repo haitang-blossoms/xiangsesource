@@ -50,7 +50,6 @@
 |Bilibili Comics|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/bilibilicomics.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
 |腾讯动漫|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/macqq.xbs`|🔒🍪|||
 |Webtoons|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/webtoons.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🔒🍪|||
-|Mangaowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangaowl.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪||🔪cloudflare deems this source unusable|
 |漫蛙|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/manwa.xbs`|🍪|||
 |mangadex|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangadex.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |365Manga|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/365manga.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
@@ -99,6 +98,7 @@
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
 |快看漫剧|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/kuaikancomicdrama.xbs`|🔒|||
+|哔哩哔哩Vomic|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/bilibilivomic.xbs`|🔒|||
 |YouTube|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/youtube.xbs`|🔒🍪|单个视频为一书籍;使用的是第三方服务，2+小时时长不可看，可能会崩; 可被修改为听书源; 发现规则可修改moreKeys|single video equates one book; uses third party service, 2+ hour video may not work; can be edited to mp3; discover can be edited in moreKeys|
 |Animeowl|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/animeowl.xbs`||||
 |Google Drive自定义|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/googledrive.xbs`|🍪|可自行修改成另类类型，别的资源|can self edit into other content types, other resources|
