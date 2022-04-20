@@ -1,13 +1,13 @@
 {
-  "名称": "Manhuahot",
-  "host": "https://manhuahot.com/",
+  "名称": "Mangakio",
+  "host": "https://mangakio.com/",
   "权重": "1",
   "类型": "图片/漫画/壁纸",
   "备注": "",
   "登录url":"",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://manhuahot.com/page/%@pageIndex/?s=%@keyWord&post_type=wp-manga",
+    "请求信息": "https://mangakio.com/page/%@pageIndex/?s=%@keyWord&post_type=wp-manga",
     "list": "//div[@class='row c-tabs-item__content']",
     "bookName": "//h3[@class='h4']/a",
     "author": "//div[contains(@class, 'post-content_item mg_author ')]/div[@class='summary-content']/a|//div[@class='post-content_item mg_artists ']/div[@class='summary-content']/a",

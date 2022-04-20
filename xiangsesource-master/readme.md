@@ -59,6 +59,7 @@
 |MangaHasu|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangahasu.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |MangaNato|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/manganato.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Manhuahot|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/manhuahot.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
+|Mangakio|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mangakio.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Bato.To|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/batoto.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|多语言|multiple languages|
 |Suburban Fairy Tales|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/francisbonnet.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|没多少但是三格漫我挺推荐的|there's not much but the comic is one i recommend|
 |快看漫画|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/kkmh.xbs`|🔒🍪|||
