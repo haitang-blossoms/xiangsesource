@@ -3,6 +3,7 @@
 |--|--|
 |这个文档会导入xbs；以前的json会保留，方便没有app观看源规则|this file will import xbs; if you need to view the internal source rules, json files are still available in newsource folder for you to view|
 |🏴󠁧󠁢󠁥󠁮󠁧󠁿为英文资源|🏴󠁧󠁢󠁥󠁮󠁧󠁿 represents English content source|
+|🇰🇷为韩文资源|🇰🇷 represents Korean content source|
 |🔒为正版|🔒 represents official raws site|
 |🍪为可登录，可自行修改httpHeaders or 登录url，不一定会带来更多功能![](https://z3.ax1x.com/2021/10/17/5YnSdf.gif)|🍪represents source can login with cookies in httpHeaders or login url, may or may not bring additional functions|
 |🪧||
@@ -74,6 +75,7 @@
 |言耽社|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/yandanshe.xbs`||单章节不可看，懒得修复|single chapter not viewable|
 |香蕉漫画网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/xiangjiao.xbs`||||
 |My Hero Academia Manga Online|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mhamanga.xbs`|||only MHA|
+|copytoon|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/copytoon.xbs`|🇰🇷|||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
