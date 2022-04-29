@@ -43,6 +43,7 @@
 |香香腐宅小说|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/boylovenovel.xbs`||||
 |耽美小说大全|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/dmxsdq.xbs`||全文为单一章节||
 |52书库|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/52shukuwang.xbs`||||
+|pingcc小说api|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/pingccfiction.xbs`||||
 ||||||
 ## 图片-images
 |源名-source name|链接-link|标注|备注|notes|
@@ -77,6 +78,7 @@
 |香蕉漫画网|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/xiangjiao.xbs`||||
 |My Hero Academia Manga Online|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/mhamanga.xbs`|||only MHA|
 |copytoon|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/copytoon.xbs`|🇰🇷|||
+|pingcc漫画api|`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/newxbs/pingcccomic.xbs`||||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
