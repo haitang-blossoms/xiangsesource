@@ -44,7 +44,9 @@ return result.replace(/最新章节,.*?全文阅读/, '').replace(/,作者.*?/, 
   },
   "章节列表": {
     "请求信息": "",
-    "list": "//*[@id='list']/dl/dd",
+    "list": "@js:
+let skip = result.queryWithXPath('//dt/preceding::dd').length;
+return result.queryWithXPath('//dd[position() > '+skip+']');",
     "title": "//a",
     "url": "//a/@href",
     "nextPageUrl": "",
@@ -54,7 +56,7 @@ return result.replace(/最新章节,.*?全文阅读/, '').replace(/,作者.*?/, 
     "responseFormatType": "HTML(格式化为DOM)",
     "success": "",
     "JSParser": "",
-    "moreKeys": "{"skipCount":9}"
+    "moreKeys": ""
   },
   "章节内容": {
     "请求信息": "",
