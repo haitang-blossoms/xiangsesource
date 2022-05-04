@@ -16,8 +16,8 @@ let url = '/twirp/comic.v1.Comic/Search?device=pc&platform=web';
 return {'url':url , 'POST':true, 'httpParams':httpParams, 'httpHeaders':httpHeaders};",
     "list": "data/list",
     "bookName": "title||org_title||@js:
-let aa = result.replace('<em class="keyword">', '');
-return aa.replace('</em>', '');",
+let aa = result.replaceAll('<em class=\"keyword\">', '');
+return aa.replaceAll('<\/em>', '');",
     "author": "author_name",
     "cover": "vertical_cover",
     "desc": "",
