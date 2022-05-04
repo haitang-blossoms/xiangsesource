@@ -1,0 +1,151 @@
+{
+  "名称": "网易云音乐播客",
+  "host": "https://music.163.com/",
+  "权重": "1",
+  "类型": "音频/音乐/听书",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+return {'url':'http://music.163.com/api/search/pc', 'POST':true, 'httpParams':{'s':params.keyWord, 'offset':0, 'limit':100, 'type':1009}};",
+    "list": "result/djRadios",
+    "bookName": "name",
+    "author": "dj/nickname",
+    "cover": "picUrl",
+    "desc": "@js:
+let intro = result.rcmdText + '\n' + result.desc;
+let pay = result.radioFeeType;
+if (pay == 1)
+	return '付费播客\n' + intro;
+if (pay == 2)
+	return '付费播客\n' + intro;
+if (pay == 0)
+	return '免费播客\n' + intro;",
+    "cat": "@js:
+return result.category + ' ' + result.secondCategory;",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "id",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "https://api.muxiv.com/dj/detail?id=%@result",
+    "cover": "data/picUrl",
+    "desc": "@js:
+let intro = result.data.rcmdText + '\n' + result.data.desc;
+let pay = result.data.radioFeeType;
+if (pay == 1)
+	return '付费播客\n' + intro;
+if (pay == 2)
+	return '付费播客\n' + intro;
+if (pay == 0)
+	return '免费播客\n' + intro;",
+    "cat": "@js:
+return result.data.category + ' ' + result.data.secondCategory;",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "https://api.muxiv.com/dj/program?id=%@result&offset=0&limit=1000000",
+    "list": "programs||@js:
+return result.reverse();",
+    "title": "name",
+    "url": "@js:
+return 'http://music.163.com/song/media/outer/url?id=' + result.mainTrackId + '.mp3';",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "function functionName(config, params, result)
+{
+	return JSON.stringify({'urls': params.responseUrl});
+}",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    
+  ],
+  "书单搜索": {
+  },
+  "书单分组": [
+    
+  ],
+  "书单详情": {
+    
+  },
+  "书本评论": {
+    "请求信息": "@js:
+return 'http://music.163.com/api/v1/resource/comments/R_SO_4_' + params.queryInfo.detailUrl + '?limit=20&offset=0';",
+    "list": "comments",
+    "title": "",
+    "detail": "content",
+    "replyCount": "",
+    "createdTime": "time||timestr",
+    "fromUserName": "user/nickname",
+    "fromUserCover": "user/avatarUrl",
+    "score": "",
+    "url": "commentId",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "http://music.163.com/api/playlist/hottags",
+    "list": "tags/playlistTag",
+    "title": "name",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为数组/字典(json)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
