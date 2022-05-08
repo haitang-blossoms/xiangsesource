@@ -247,6 +247,29 @@ return result.novelClass + ' ' + result.tags;",
         "JSParser": "",
         "moreKeys": "{"pageSize":20,"requestFilters":"往期限免::vipNovelFree\n最新完结::lastendNovel"}"
       }
+    },
+    {
+      "name": "新书千字榜",
+      "rules": {
+        "请求信息": "https://app.jjwxc.net/iosapi/newDayList?channelMore=1",
+        "list": "data[0]/data",
+        "bookName": "novelName",
+        "author": "authorName",
+        "cover": "cover",
+        "desc": "novelintroshort",
+        "cat": "@js:
+return result.novelClass + ' ' + result.tags;",
+        "status": "novelStep",
+        "wordCount": "novelSize",
+        "lastChapterTitle": "",
+        "detailUrl": "novelId",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为数组/字典(json)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
     }
   ],
   "书单搜索": {
