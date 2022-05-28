@@ -56,7 +56,7 @@
   },
   "章节内容": {
     "请求信息": "",
-    "content": "//amp0img/@src",
+    "content": "//li[@class='chapter-img']/img/@data-src",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
