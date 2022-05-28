@@ -58,7 +58,9 @@ return result.reverse();",
   },
   "章节内容": {
     "请求信息": "",
-    "content": "//div[@class='page-break no-gaps']//img/@data-src",
+    "content": "//div[@class='page-break no-gaps']//img/@data-src||@js:
+let replacer = result.replaceAll('\t', '').replace('\n', '');
+return JSON.stringify({'urls': replacer.split('\n\n'), 'httpHeaders': {'referer':params.queryInfo.url}});",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
