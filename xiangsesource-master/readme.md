@@ -42,7 +42,6 @@
 |mmKuu|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mmkuu.xbs`||||
 |香香腐宅小说|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/boylovenovel.xbs`||||
 |耽美小说大全|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/dmxsdq.xbs`||全文为单一章节||
-|52书库|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/52shukuwang.xbs`||||
 |pingcc小说api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/pingccfiction.xbs`||||
 ||||||
 ## 图片-images
