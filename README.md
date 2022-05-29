@@ -8,14 +8,14 @@
 ## 2.52&above以及以上
 |||
 |--|--|
-|复制链接，到app同步界面同步源`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/readme.md`|copy link and go to app source sync page|
+|复制链接，到app同步界面同步源`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/readme.md`|copy link and go to app source sync page|
 |格式是以.xbs尾或.md尾（.md则是多个源导入）|format ends in extensions .xbs or .md (markdown files contain multiple source imports)|
 |如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可|if there is a xbs file not listed in the .md, simply copy the raw file link and import|
 
 ## 2.51&below以及以下
 |||
 |--|--|
-|复制链接，到app同步界面同步源`https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/%E4%B8%AD%E6%96%87%E6%BA%90.md`|copy link and go to app source sync page `https://cdn.jsdelivr.net/gh/haitang-blossoms/xiangsesource@main/xiangsesource-master/englishSource.md`|
+|复制链接，到app同步界面同步源`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/%E4%B8%AD%E6%96%87%E6%BA%90.md`|copy link and go to app source sync page `https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/englishSource.md`|
 |格式是以.xbs尾或.md尾（.md则是多个源导入）|format ends in extensions .xbs or .md (markdown files contain multiple source imports)|
 |如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可|if there is a xbs file not listed in the .md, simply copy the raw file link and import|
 |不维修|no more updates|
@@ -26,7 +26,6 @@
 |请点击链接阅读源的简介再考虑导入；|preferably read the comments on the source before importing|
 |不定期添加新源以及更新/修复源，所以要长期使用的话记得时不时查看仓库更新|updates periodically, check any updates to the repository|
 |若有书源制造要求/修改可以在issues发布任务，我尽量会去执行|if there are source creation requests send a comment or open an issue|
-|帮助（虽然也帮不上啥）： https://gitee.com/haitang-blossoms/xiangsesource/wikis|help wiki (not that it's really helpful)|
 
 #### 交流区-chat
 
