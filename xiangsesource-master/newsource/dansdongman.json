@@ -7,7 +7,8 @@
   "登录url":"",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://dans.cc/index.php?m=Home&c=Video&a=index&bookname=%@keyWord",
+    "请求信息": "@js:
+return {'url':'https://dans.cc/index.php?m=Home&c=Video&a=index&bookname=' +encodeURI(params.keyWord), 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
     "list": "//div[@class='item']",
     "bookName": "//div[@class='title']",
     "author": "",
@@ -66,7 +67,8 @@ return 'https://dans.cc/index.php?m=Home&c=Video&a=bookinfo&vid=' + result;",
     "moreKeys": ""
   },
   "章节内容": {
-    "请求信息": "",
+    "请求信息": "@js:
+return {'url':params.queryInfo.url, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
     "content": "//video/source/src,
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
@@ -80,7 +82,8 @@ return 'https://dans.cc/index.php?m=Home&c=Video&a=bookinfo&vid=' + result;",
     {
       "name": "动漫",
       "rules": {
-        "请求信息": "https://dans.cc/index.php?m=Home&c=Video&a=index&p=%@pageIndex",
+        "请求信息": "@js:
+return {'url':'https://dans.cc/index.php?m=Home&c=Video&a=index&p='+params.pageIndex, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
         "list": "//div[@class='item']",
         "bookName": "//div[@class='title']",
         "author": "",
