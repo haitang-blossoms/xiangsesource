@@ -110,6 +110,7 @@
 |YouTube|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/youtube.xbs`|🔒🍪|单个视频为一书籍;使用的是第三方服务，2+小时时长不可看，可能会崩; 可被修改为听书源; 发现规则可修改moreKeys|single video equates one book; uses third party service, 2+ hour video may not work; can be edited to mp3; discover can be edited in moreKeys|
 |Animeowl|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/animeowl.xbs`||||
 |Google Drive自定义|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/googledrive.xbs`|🍪|可自行修改成另类类型，别的资源|can self edit into other content types, other resources|
+|一耽女孩动漫|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/dansdongman.xbs`||||
 ||||||
 
 

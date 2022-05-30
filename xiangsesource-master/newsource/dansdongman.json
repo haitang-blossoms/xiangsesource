@@ -1,0 +1,221 @@
+{
+  "名称": "一耽女孩动漫",
+  "host": "https://dans.cc",
+  "权重": "1",
+  "类型": "视频/电影/电视剧",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "https://dans.cc/index.php?m=Home&c=Video&a=index&bookname=%@keyWord",
+    "list": "//div[@class='item']",
+    "bookName": "//div[@class='title']",
+    "author": "",
+    "cover": "//div[@class='cover']/img/@src",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "//div[@class='cover']/span",
+    "detailUrl": "//a/@data-ids||@js:
+return 'https://dans.cc/index.php?m=Home&c=Video&a=bookinfo&vid=' + result;",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "url": "",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "function functionName(config, params, result)
+{
+    let list = [];
+
+    let chapterInfo = {};
+    chapterInfo.title = params.queryInfo.bookName;
+    chapterInfo.url = params.queryInfo.detailUrl;
+    list.push(chapterInfo);
+
+    return {'list':list};
+}",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "",
+    "content": "//video/source/src,
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "动漫",
+      "rules": {
+        "请求信息": "https://dans.cc/index.php?m=Home&c=Video&a=index&p=%@pageIndex",
+        "list": "//div[@class='item']",
+        "bookName": "//div[@class='title']",
+        "author": "",
+        "cover": "//div[@class='cover']/img/@src",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "//div[@class='cover']/span",
+        "detailUrl": "//a/@data-ids||@js:
+return 'https://dans.cc/index.php?m=Home&c=Video&a=bookinfo&vid=' + result;",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":15}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
