@@ -78,6 +78,7 @@
 |My Hero Academia Manga Online|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mhamanga.xbs`|||only MHA|
 |copytoon|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/copytoon.xbs`|🇰🇷|||
 |pingcc漫画api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/pingcccomic.xbs`||||
+|一耽女孩|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/dans.xbs`||||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|

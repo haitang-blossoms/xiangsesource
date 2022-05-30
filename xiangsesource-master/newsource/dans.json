@@ -1,0 +1,221 @@
+{
+  "名称": "一耽女孩",
+  "host": "https://dans.cc",
+  "权重": "1",
+  "类型": "图片/漫画/壁纸",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "@js:
+return {'url':'https://dans.cc/index.php?m=Home&c=Mh&a=search&key=' +encodeURI(params.keyWord), 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
+    "list": "//div[@class='item']",
+    "bookName": "//div[@class='title']",
+    "author": "//div[@class='author']||@replace:作者：",
+    "cover": "//div[@class='cover']/img/@data-cfsrc||@js:
+return config.host+result.replace('./', '');",
+    "desc": "//div[@class='body']/div[@class='text']",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "//div[@class='action']/a/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "@js:
+return {'url':config.host+params.queryInfo.detailUrl, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
+    "cover": "//div[@class='cover']/img/@data-cfsrc||@js:
+return config.host+result.replace('./', '');",
+    "desc": "//article[@class='article']/div[@class='body']",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "@js:
+return {'url':config.host+params.queryInfo.detailUrl, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
+    "list": "//div[@class='list']/div[@class='item']||@js:
+return result.reverse();",
+    "title": "//a",
+    "url": "//a/@href",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "@js:
+return {'url':config.host+params.queryInfo.url, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
+    "content": "//figure/img/@data-original",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "function functionName(config, jsparams, result) {
+let dat = result.content.split('\n').map(s => `https://dans.cc${s}`);
+return JSON.stringify({'urls': dat});
+}",
+    "moreKeys": ""
+  },
+  "书籍分类": [
+    {
+      "name": "分类",
+      "rules": {
+        "请求信息": "@js:
+return {'url':'https://dans.cc/index.php?m=Home&c=Mh&a=book_cate&p=' + params.pageIndex + '&cateid=' + params.filters.cat, 'httpHeaders':{'user-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}};",
+        "list": "//div[@class='books-list mb-tabar ']/div[@class='item']",
+        "bookName": "//div[@class='title']",
+        "author": "//div[@class='author']||@replace:作者：",
+        "cover": "//div[@class='cover']/img/@data-cfsrc||@js:
+return config.host+result.replace('./', '');",
+        "desc": "//div[@class='body']/div[@class='text']",
+        "cat": "//div[@class='lebel-l']/p[1]",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "//div[@class='lebel-l']/p[2]",
+        "detailUrl": "//a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":20,"requestFilters":"cat\n全部::\n短漫::1\n甜漫::2\n强强::3\n年下攻::4\n淫荡受\/诱受::5\n骨科::6\n调教::7\n健气受::8\nABO::9\n重生\/重逢::10\n财阀::11\n校园::12\n女王受::13\nNP\/SM::14\n韩国榜单::15\n高H::16\n架空::17\n娱乐圈::18\n办公室::19\n青梅竹马::20"}"
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}
