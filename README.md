@@ -30,6 +30,7 @@
 #### 交流区-chat
 
 - QQ频道搜“香色闺阁”
+- discord https://discord.gg/Xy2wXYPGn5
 
 - 搜索到的讨论
   - https://www.douban.com/group/topic/248603097/?_i=68715433dhHlQS,68715583dhHlQS
