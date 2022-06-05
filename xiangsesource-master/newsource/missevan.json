@@ -7,7 +7,8 @@
   "登录url":"",
   "httpHeaders": "",
   "书籍搜索": {
-    "请求信息": "https://www.missevan.com/dramaapi/search?s=%@keyWord&p=%@pageIndex",
+    "请求信息": "@js:
+return {'url':'https://www.missevan.com/dramaapi/search?s=%@keyWord&p=%@pageIndex', 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
     "list": "info/Datas",
     "bookName": "name",
     "author": "author",
@@ -27,7 +28,8 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
     "moreKeys": ""
   },
   "书籍详情": {
-    "请求信息": "",
+    "请求信息": "@js:
+return {'url':result, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
     "cover": "info/drama/cover||info/album/front_cover",
     "desc": "info/drama/abstract||info/album/intro",
     "cat": "info/drama/type||info/drama/catalog_name",
@@ -42,7 +44,8 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
     "moreKeys": ""
   },
   "章节列表": {
-    "请求信息": "",
+    "请求信息": "@js:
+return {'url':result, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
     "list": "info/episodes/episode||info/episodes/music||info/sounds",
     "title": "name||soundstr",
     "url": "sound_id||id",
@@ -56,7 +59,8 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
     "moreKeys": ""
   },
   "章节内容": {
-    "请求信息": "https://www.missevan.com/sound/getsound?soundid=%@result",
+    "请求信息": "@js:
+return {'url':'https://www.missevan.com/sound/getsound?soundid='+params.queryInfo.url, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
     "content": "info/sound/soundurl",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
@@ -71,7 +75,7 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
       "name": "分类",
       "rules": {
         "请求信息": "@js:
-return 'https://www.missevan.com/dramaapi/search?s=' + encodeURI(params.filter) + '&page=' + params.pageIndex;",
+return {'url':'https://www.missevan.com/dramaapi/search?s=' + encodeURI(params.filter) + '&page=' + params.pageIndex, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
         "list": "info/Datas",
         "bookName": "name",
         "author": "author",
@@ -95,7 +99,7 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
       "name": "广播剧",
       "rules": {
         "请求信息": "@js:
-return 'https://www.missevan.com/dramaapi/filter?filters=' + params.filters.tag + '_' + params.filters.sex + '_' + params.filters.status + '_' + params.filters.timeperiod + '_0&page=' + params.pageIndex + '&order=' + params.filters.order;",
+return {'url':'https://www.missevan.com/dramaapi/filter?filters=' + params.filters.tag + '_' + params.filters.sex + '_' + params.filters.status + '_' + params.filters.timeperiod + '_0&page=' + params.pageIndex + '&order=' + params.filters.order, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
         "list": "info/Datas",
         "bookName": "name",
         "author": "",
@@ -119,7 +123,7 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
       "name": "音单",
       "rules": {
         "请求信息": "@js:
-return 'https://www.missevan.com/explore/tagalbum?order=' + params.filters.sort + '&tid=' + params.filters.cat;",
+return {'url':'https://www.missevan.com/explore/tagalbum?order=' + params.filters.sort + '&tid=' + params.filters.cat, 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
         "list": "albums",
         "bookName": "title",
         "author": "username",
@@ -143,7 +147,7 @@ return '/sound/soundalllist?albumid=' + result;",
       "name": "有声漫画",
       "rules": {
         "请求信息": "@js:
-return 'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=96&type=' + params.filters.status + '&order=1&page=' + params.pageIndex + '&page_size=36';",
+return {'url':'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=96&type=' + params.filters.status + '&order=1&page=' + params.pageIndex + '&page_size=36', 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};,
         "list": "info/Datas",
         "bookName": "name",
         "author": "username",
@@ -167,7 +171,7 @@ return 'https://www.missevan.com/dramaapi/getdrama?drama_id=' + result;",
       "name": "听书",
       "rules": {
         "请求信息": "@js:
-return 'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=86&type=' + params.filters.type + '&order=1&page=' + params.pageIndex + '&page_size=36';",
+return {'url':'https://www.missevan.com/mobileWeb/catalogdrama?catalog_id=86&type=' + params.filters.type + '&order=1&page=' + params.pageIndex + '&page_size=36', 'httpHeaders':{'user-agent':'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36'}};",
         "list": "info/Datas",
         "bookName": "name",
         "author": "username",
