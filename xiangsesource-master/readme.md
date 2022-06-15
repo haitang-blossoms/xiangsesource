@@ -79,6 +79,7 @@
 |copytoon|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/copytoon.xbs`|🇰🇷|||
 |pingcc漫画api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/pingcccomic.xbs`||||
 |一耽女孩|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/dans.xbs`||||
+|3A漫画|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/308mh.xbs`||没有搜索只有发现；看不了小说||
 ||||||
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
