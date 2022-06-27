@@ -51,7 +51,9 @@
 |Bilibili Comics|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bilibilicomics.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
 |腾讯动漫|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/macqq.xbs`|🔒🍪|||
 |Webtoons|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/webtoons.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🔒🍪|||
-|漫蛙|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manwa.xbs`|🍪|||
+|漫蛙|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manwa.xbs`|🍪|无效了|not usable|
+|mangaowl|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangaowl.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
+|mangago|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangago.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|比较慢|a bit slow|
 |mangadex|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangadex.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |365Manga|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/365manga.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
 |MangaTuli|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangatuli.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|||
