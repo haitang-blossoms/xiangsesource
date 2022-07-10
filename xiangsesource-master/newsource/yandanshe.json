@@ -42,9 +42,9 @@
   },
   "章节列表": {
     "请求信息": "",
-    "list": "//div[@class='article-paging article-paging-whole']/div[@class='list']/span|//div[@class='article-paging article-paging-whole']/div[@class='list']/a",
-    "title": "//span||//a",
-    "url": "//span||//a||@js:
+    "list": "//div[@class='article-paging article-paging-whole']/div[@class='list']/*||//head",
+    "title": "//title||//text()||@replace:_言耽社",
+    "url": "//link[@rel='canonical']||//text()||@js:
 return params.queryInfo.detailUrl + result + '/';",
     "nextPageUrl": "",
     "updateTime": "",
