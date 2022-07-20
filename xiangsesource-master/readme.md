@@ -18,7 +18,7 @@
 |晋江文学城-Jinjiang Literature City|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/jjwxc.xbs`|🔒🍪|||
 |豆腐小说-Doufu Novel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/doufu.xbs`|🔒|有的发现规则并不会真的筛选，自己按照app的规模探索一下哪些combo有效||
 |书耽小说-Shudan Novel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/shubl.xbs`|🔒🍪|||
-|长佩文学-Changpei Literature|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/gongzicp.xbs`|🔒🍪|发现板块有点内容获取缺失的问题，但大部分应该能用|discover rules have a slight content problem, but most of it should work|
+|长佩文学-Changpei Literature|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/gongzicp.xbs`|🔒🍪|正文有问题|content has problem|
 |寒武纪年|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/hanwujinian.xbs`|🔒|||
 |悸花阅读|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/lestory.xbs`|🔒|||
 |青果阅读|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/qingoo.xbs`|🔒|||
@@ -29,6 +29,7 @@
 |可乐小说网|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/xklxsw.xbs`|🍪|||
 |梦阮小说|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mengruan.xbs`||||
 |All Novel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/allnovel.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
+|lightnovelreader|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/lightnovelreader.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |书宝网|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/shubaow.xbs`|🍪|||
 |Collins English Dictionary|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/collinsdictionary.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|字典，额，随便拿来玩玩呗|for fun, because why would you have a source just for dictionaries?|
 |NovelUpdates|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/novelupdates.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🍪|资源导航网站，章节内容需按网址修改|resource navigation, content rules should be edited based on what site is redirected to|
@@ -64,6 +65,7 @@
 |Manhuahot|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manhuahot.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Mangakio|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangakio.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Read Manga Online|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/readm.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
+|readmanga|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/readmanga.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |Bato.To|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/batoto.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|多语言|multiple languages|
 |Suburban Fairy Tales|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/francisbonnet.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|没多少但是三格漫我挺推荐的|there's not much but the comic is one i recommend|
 |快看漫画|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/kkmh.xbs`|🔒🍪|||
