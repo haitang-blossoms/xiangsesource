@@ -22,6 +22,7 @@
 |寒武纪年|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/hanwujinian.xbs`|🔒|||
 |悸花阅读|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/lestory.xbs`|🔒|||
 |青果阅读|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/qingoo.xbs`|🔒|||
+|若初文学|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/ruochu.xbs`|🔒|没搜索||
 |恋文/Lovenovel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/lovenovelapp.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
 |笔趣阁xswang|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/biqugexswang.xbs`|🍪|||
 |笔下文学|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bxwxorg.xbs`|🍪|||
