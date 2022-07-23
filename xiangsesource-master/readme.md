@@ -108,6 +108,7 @@
 |MuXiv Music|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/muxiv.xbs`||||
 |听书王|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/wukongks.xbs`||||
 |有声小说大全api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/yst8.xbs`||||
+|新❀华漫·6parkbbs|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/6parkbbs.xbs`||论坛资源，规则写的有点潦草所以封面不全音频名称看不到||
 ||||||
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
