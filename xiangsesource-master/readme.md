@@ -24,6 +24,7 @@
 |青果阅读|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/qingoo.xbs`|🔒|||
 |若初文学|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/ruochu.xbs`|🔒|没搜索||
 |恋文/Lovenovel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/lovenovelapp.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
+|neovel|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/neovel.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|懒得搞详细分类|lazy to write detailed sort|
 |笔趣阁xswang|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/biqugexswang.xbs`|🍪|||
 |笔下文学|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bxwxorg.xbs`|🍪|||
 |腐小说|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/xpsam.xbs`|🍪|||
