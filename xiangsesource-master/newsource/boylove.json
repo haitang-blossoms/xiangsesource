@@ -82,7 +82,7 @@ return JSON.stringify({'urls': dat});
         "cover": "cover",
         "desc": "desc",
         "cat": "keyword",
-        "status": "status",
+        "status": "mhstatus",
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
         "detailUrl": "id||@js:
@@ -106,7 +106,7 @@ return 'https://boylove.live/home/api/cate/tp/1-' + encodeURI(params.filters.typ
         "cover": "image||cover",
         "desc": "desc",
         "cat": "keyword",
-        "status": "status",
+        "status": "mhstatus",
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
         "detailUrl": "id||@js:
