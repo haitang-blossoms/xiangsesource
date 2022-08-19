@@ -94,25 +94,25 @@ return JSON.stringify({'urls': dat});
       }
     },
     {
-      "name": "",
+      "name": "分类",
       "rules": {
-        "请求信息": "",
-        "list": "",
-        "bookName": "",
-        "author": "",
-        "cover": "",
-        "desc": "",
+        "请求信息": "https://dans.cc/prod-api/app-api/vv/mh-list/page?pageNo=%@pageIndex&pageSize=18&mhcate=%@filter",
+        "list": "data/list",
+        "bookName": "title",
+        "author": "author",
+        "cover": "coverPic",
+        "desc": "summary",
         "cat": "",
         "status": "",
         "wordCount": "",
-        "lastChapterTitle": "",
-        "detailUrl": "",
+        "lastChapterTitle": "episodes",
+        "detailUrl": "id",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为数组/字典(json)",
         "success": "",
         "JSParser": "",
-        "moreKeys": ""
+        "moreKeys": "{"pageSize":18,"requestFilters":"filter\n排行::2\n新作::4\n完结漫::5"}"
       }
     }
   ],
