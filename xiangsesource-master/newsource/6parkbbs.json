@@ -9,7 +9,7 @@
   "书籍搜索": {
     "请求信息": "https://web.6parkbbs.com/index.php?act=search&app=forum&bbsid=2032&keywords=%@keyWord&submit=%E6%9F%A5%E8%AF%A2&p=%@pageIndex",
     "list": "//div[@class='t_l']",
-    "bookName": "//span/a/b/text()",
+    "bookName": "//span/a/b",
     "author": "",
     "cover": "",
     "desc": "",
