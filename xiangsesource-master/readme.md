@@ -110,6 +110,7 @@
 |听书王|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/wukongks.xbs`||||
 |有声小说大全api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/yst8.xbs`||||
 |新❀华漫·6parkbbs|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/6parkbbs.xbs`||论坛资源，规则写的有点潦草所以封面不全音频名称看不到||
+|史上最全1000部经典有声书，免费收听（2020.12版）|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mpweixinjingdian.xbs`||||
 ||||||
 ## 视频-video
 |源名-source name|链接-link|标注|备注|notes|
