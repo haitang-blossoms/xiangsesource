@@ -46,6 +46,7 @@
 |香香腐宅小说|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/boylovenovel.xbs`||||
 |耽美小说大全|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/dmxsdq.xbs`||全文为单一章节||
 |pingcc小说api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/pingccfiction.xbs`||||
+|酷歌词|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/kugeci.xbs`||||
 ||||||
 ## 图片-images
 |源名-source name|链接-link|标注|备注|notes|
