@@ -17,8 +17,7 @@
     "status": "status",
     "wordCount": "",
     "lastChapterTitle": "last_chapter_title",
-    "detailUrl": "id||@js:
-return 'https://boylove.live/home/book/index/id/' + result;",
+    "detailUrl": "id",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
     "responseFormatType": "格式化为数组/字典(json)",
@@ -27,7 +26,7 @@ return 'https://boylove.live/home/book/index/id/' + result;",
     "moreKeys": ""
   },
   "书籍详情": {
-    "请求信息": "",
+    "请求信息": "https://boylove.house/home/book/index/id/%@result",
     "cover": "//span[@class='pic']/a",
     "desc": "",
     "cat": "//div[@class='stui-content__detail']/p[7]/a",
@@ -43,7 +42,7 @@ return 'https://boylove.live/home/book/index/id/' + result;",
   },
   "章节列表": {
     "请求信息": "@js:
-return 'https://boylove.cc/home/api/chapter_list/tp/'+params.queryInfo.detailUrl.replace('https://boylove.house/home/book/index/id', '')+'-1-0-10';",
+return 'https://boylove.cc/home/api/chapter_list/tp/'+params.queryInfo.detailUrl+'-1-0-10';",
     "list": "result/list",
     "title": "title",
     "url": "id",
@@ -84,8 +83,7 @@ return JSON.stringify({'urls': dat});
         "status": "mhstatus",
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
-        "detailUrl": "id||@js:
-return 'https://boylove.live/home/book/index/id/' + result;",
+        "detailUrl": "id",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为数组/字典(json)",
@@ -108,8 +106,7 @@ return 'https://boylove.live/home/api/cate/tp/1-' + encodeURI(params.filters.typ
         "status": "mhstatus",
         "wordCount": "",
         "lastChapterTitle": "last_chapter_title",
-        "detailUrl": "id||@js:
-return 'https://boylove.live/home/book/index/id/' + result;",
+        "detailUrl": "id",
         "requestParamsEncode": "utf-8",
         "responseEncode": "utf-8",
         "responseFormatType": "格式化为数组/字典(json)",
