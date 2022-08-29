@@ -92,6 +92,7 @@
 ## 音频-audio
 |源名-source name|链接-link|标注|备注|notes|
 |--|--|--|--|--|
+|无限中抓|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/chinadra.xbs`|🔒|不能听，只是个资源索引源，正文则显示链接|no audio sources, just links to the source|
 |New Temp Drama House|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/tempyuriradiohouse.xbs`||单个音频为一个书籍|single audio equates one sole book|
 |Miniaudiobook|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/miniaudiobook.xbs`||单个音频为一个书籍|single audio equates one sole book|
 |水哥故事会|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/shuige.xbs`||||
