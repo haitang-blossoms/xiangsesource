@@ -107,7 +107,8 @@
 |克拉漫播|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manbo.xbs`|🔒|||
 |哔哩哔哩|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bilibiliaudio.xbs`|🔒|单个音频为一书籍；仅视频的音频，适合听书；可被修改来看视频（但视频没有音频）|single audio equates one sole book; suitable for listening to audiobooks; can be edited to view video|
 |喜马拉雅|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/ximalaya.xbs`|🔒|超多发现规则，可累死个我勒不会写更全啦，有需求就自行上网站找专辑再搜索呗||
-|轻音社|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/fuciyuanbang.xbs`||||
+|轻音社|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/fuciyuanbang.xbs`||歌单仅限于发现页面|playlists only in discover|
+|轻音社音频|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/fuciyuanbangaudio.xbs`||单个音频|single audio|
 |MuXiv Music|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/muxiv.xbs`||||
 |听书王|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/wukongks.xbs`||||
 |有声小说大全api|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/yst8.xbs`||||
