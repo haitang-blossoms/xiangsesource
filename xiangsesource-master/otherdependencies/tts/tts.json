@@ -1,0 +1,186 @@
+{
+  "名称": "语音设置",
+  "host": "http://127.0.0.1",
+  "权重": "1",
+  "类型": "",
+  "备注": "分类选择语音测试的tts;感谢Bell的列子",
+  "登录url": "",
+  "httpHeaders": "",
+  "书籍分类": [
+    {
+      "name": "百度",
+      "rules": {
+        "请求信息": "@js:
+let url='http://tsn.baidu.com/text2audio';
+let body={
+    per:4114,
+    cuid:'baidu_speech_demo',
+    idx:1,
+    cod:2, 
+    lan:'zh',
+    ctp:1,
+    pdt:220,
+    _res_tag_:'audio'
+};
+let _conf={
+      key:'tex',
+      body:body,
+      headers:{},
+      post:true,
+      url:url
+ };
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "搜狗",
+      "rules": {
+        "请求信息": "@js:
+
+let url="https://fanyi.sogou.com/reventondc/synthesis";
+let body={
+    speed:0.9,
+    lang:'zh-CHS',
+    from:'translateweb',
+    speaker:params.filters.type
+};
+let _conf={
+      key:'text',
+      body:body,
+      headers:{},
+      post:false,
+      url:url
+ };
+
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"type\n男童音::0\n低沉男::1\n女童音::2\n稳重女::3\n憨厚男::4\n播音女::5\n温柔女::6\n"}"
+      }
+    },
+    {
+      "name": "DUI",
+      "rules": {
+        "请求信息": "@js:
+
+let url="https://dds.dui.ai/runtime/v1/synthesize";
+let body={
+    voiceId:params.filters.type,
+    speed:1,
+    volume:50,
+    audioType:'wav'
+};
+let _conf={
+      key:'text',
+      body:body,
+      headers:{},
+      post:false,
+      url:url
+ };
+
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"type\n臻品女声芊芊::hqqiaf\n臻品女声楚楚::chuxif\n臻品男声小军::xijunmv4\n精品男声秋木::qiumum_0gushi\n精品电台男声考拉::kaolam_diantai\n精品男声小军::xijunma\n精品男声小江::wjianm_xsheng\n精品男声季老师::jlshimp\n精品男声小睿::tzruimp\n精品男声俞老师::yukaimp\n精品风趣幽默星哥::zxcmp\n精品淡定风趣葛爷::geyoump\n精品沉稳幽默纲叔::gdgmfp\n精品英文男声brett::brettmp\n精品甜美女声小静::xjingfp\n精品温柔女声小兰::gqlanfp\n精品甜美女声小咪::xmamif\n精品娱播女声麻豆::madoufp_yubo\n精品甜美女声婷婷::xmguof\n精品客服女声芳芳::gdfanfp\n精品温柔女声麻豆::madoufp_wenrou\n精品女声蓝雨::lanyuf\n精品女声小浩::lucyfa\n精品甜美女神小玲::zhilingfp\n精品女声安宁::aningfp\n精品女学生初阳::cyangfp\n精品客服女声小美::juan1f\n精品欢快女神小玲::zhilingfp_huankuai\n精品知性女声晶晶::jjingfp\n精品娱报女声璃璃::lili1f_yubo\n精品女老师风吟::feyinfp\n精品女老师行者::xizhefp\n精品客服女声小九::xijiufp\n精品清新女声零八::linbafp_qingxin\n精品上海话女声叶子::yezi1f_csh\n精品四川话女声胖胖::ppangf_csn\n精品四川话女声文卿::wqingf_csn\n精品山东话女声大瑶::dayaof_csd\n精品粤语女声晓健::lunaif_ctn\n精品粤语女声何春::hchunf_ctn\n精品河南话女声木兰::xizhuf_cyu\n精品闽南语女声清风颜::qfyanf_cmn\n精品东北话女声翠花::xjingf_cdb\n精品可爱男童连连::lzliafp\n精品男童堂堂::tangtang_boyfp\n精品男童方方::gdfanf_natong\n精品女童贝壳::xbekef\n传统可爱男童连连::lzliaf\n传统甜美女神小玲::zhilingf\n传统风趣幽默星哥::zxcm\n传统邻家女声小妮::hyanif\n传统平和女声小佚::anonyf\n传统沉稳幽默纲叔::gdgm\n传统男声小军::xijunm\n传统可爱女童然然::qianranf\n传统女童佚佚::anonyg\n传统淡定风趣葛爷::geyou\n标准甜美女神小玲::zhilingfa\n标准电台女声璃璃::lili1f_diantai\n标准商务女声璃璃::lili1f_shangwu\n标准女老师小妖::xiyaof_laoshi\n标准女声安宁::aningf\n标准女声杨阿姨::yaayif\n标准高冷女声零八::linbaf_gaoleng\n标准女老师行者::xizhef\n标准男声考拉::kaolam\n标准故事女声小静::xjingf_gushi\n标准清新女声零八::linbaf_qingxin\n标准男童堂堂::boy\n标准女老师风吟::feyinf\n标准女声小妖::xiyaof\n标准可爱男童连连::lzliafa\n标准女声瑶瑶::luyaof\n标准鬼故事绝音::juyinf_guigushi\n标准女学生初阳::cyangf\n标准可爱女童然然::qianranfa\n标准男声秋木::qiumum\n标准男声小睿::tzruim\n标准男声小江::wjianm\n标准知性女声晶晶::jjingf\n标准清新女声小妖::xiyaof_qingxin\n标准磁性男声俞老师::yukaim_all\n标准女声朱株儿::zzherf\n标准故事女声砖砖::zzhuaf\n标准温柔女声小兰::gqlanf\n标准男声季老师::jlshim\n标准清亮女声小洁::smjief\n标准邻家女声小妮::hyanifa\n标准男童方方::gdfanf_boy\n标准清纯女声考拉::kaolaf\n标准飘逸女声小静::xjingf\n"}"
+      }
+    },
+    {
+      "name": "有道",
+      "rules": {
+        "请求信息": "@js:
+
+let url="https://tts.youdao.com/fanyivoice";
+let body={
+    le:params.filters.type
+};
+let _conf={
+      key:'word',
+      body:body,
+      headers:{},
+      post:false,
+      url:url
+ };
+
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"type\nauto\/自动语言::auto\nArabic\/阿拉伯语::ar\nCantonese\/粤语::yue\nCatalan\/加泰隆语::ca\nCzech\/捷克语::cs\nDanish\/丹麦语::da\nDutch\/荷兰语::nl\nEnglish (Australia)\/英语（澳大利亚）::en-AUS\nEnglish (GB)\/英语（英国）::en-GBR\nEnglish (India)\/英语（印度）::en-IND\nEnglish (US)\/英语（美国）::en-USA\nEnglish\/英语::en\nFinnish\/芬兰语::fi\nFrench\/法语::fr\nFrench (Canada)\/法语（加拿大）::fr-CAN\nGerman\/德语::de\nGreek\/希腊语::el\nHebrew\/希伯来语::he\nHindi\/印地语::hi\nHungarian\/匈牙利语::hu\nItalian\/意大利语::it\nJapanese\/日语::ja\nKorean\/韩语::ko\nMandarin (China)\/普通话（中国）::zh-CHS\nMandarin (Taiwan)\/普通话（中国台湾）::zh-TWN\nNorwegian\/挪威语::no\nPolish\/波兰语::pl\nPortuguese (Brazil)\/葡萄牙语（巴西）::pt-BRA\nPortuguese (Portugal)\/葡萄牙语（葡萄牙）::pt\nRomanian\/罗马尼亚语::ro\nRussian\/俄语::ru\nSlovak\/斯洛伐克语::sk\nSpanish\/西班牙语::es\nSwedish\/瑞典语::sv\nThai\/泰语::th\nTurkish\/土耳其语::tr\nBahasa (Indonesia)\/印尼语::id\nValencian\/越南语::vi"}"
+      }
+    },
+    {
+      "name": "云知声",
+      "rules": {
+        "请求信息": "@js:
+
+let url="https://dev.hivoice.cn/TTSServlet";
+let body={
+   voiceName:params.filters.type,
+    voicePitch:50,
+    voiceSpeed:50,
+    voiceVolume:50,
+    bright:50
+};
+let _conf={
+      key:'text',
+      body:body,
+      headers:{},
+      post:false,
+      url:url
+ };
+
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"type\n小雯::xiaoli\n小峰::xiaoming\n萱萱::sweet\n玲玲::lzl\n天天::boy\n糖糖::tangtang\nKiYo::kiyo\nJenny::Jenny\n"}"
+      }
+    },
+    {
+      "name": "出门问问",
+      "rules": {
+        "请求信息": "@js:
+
+let url="https://ai.chumenwenwen.com/tts/audios";
+let body={
+	speed:1,
+	pitch:0,
+	speaker:params.filters.type,
+	audio_type:'mp3',
+	product:'ai_platform'
+};
+let _conf={
+      key:'text',
+      body:body,
+      headers:{},
+      post:false,
+      url:url
+ };
+
+params.nativeTool.setCache("xsreader_voice_conf",JSON.stringify(_conf));",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "普通字符串",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"requestFilters":"type\n温柔女声::cissy_lpcnet\n通用男声::billy_lpcnet\n台湾女声::tina_lpcnet\n可爱童声::lucy_lpcnet\n通用女声::emily_lpcnet\n粤语女声::dora_lpcnet\n英文女声::angela_lpcnet"}"
+      }
+    }
+  ]
+}
