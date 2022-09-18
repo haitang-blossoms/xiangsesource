@@ -1,0 +1,243 @@
+{
+  "名称": "啵乐",
+  "host": "https://bmhl.xyz",
+  "权重": "1",
+  "类型": "图片/漫画/壁纸",
+  "备注": "",
+  "登录url":"",
+  "httpHeaders": "",
+  "书籍搜索": {
+    "请求信息": "https://bmhl.xyz/tag_result?query=%@keyWord&p=%@pageIndex",
+    "list": "//*[@id="list_group"]/div[@class='list_items']/div[@class='list_item']",
+    "bookName": "//div[@class='list_item__info']/a[1]",
+    "author": "//div[@class='list_item__info']/a[2]",
+    "cover": "//@data-bg",
+    "desc": "//div[@class='list_item__info']/div[@class='desc']",
+    "cat": "//div[@class='search_tag_group']/div[@class='tags']",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "//div[@class='list_item__action']/div[@class='update']",
+    "detailUrl": "//div[@class='list_item__action']/a/@href",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书籍详情": {
+    "请求信息": "",
+    "cover": "",
+    "desc": "//*[@id="wrapper_content"]/div[@class='introductionList']/div[@class='bookInformation']/div[@class='info']/div[@class='summary']/div[@class='desc']",
+    "cat": "//*[@id="wrapper_content"]/div[@class='introductionList']/div[@class='bookInformation']/div[@class='info']/div[@class='tags']",
+    "status": "//*[@id="wrapper_content"]/div[@class='introductionList']/div[@class='bookInformation']/div[@class='info']/div[@class='status']",
+    "wordCount": "",
+    "lastChapterTitle": "//*[@id="wrapper_content"]/div[@class='introductionList']/div[@class='chapterList']/div[@id='navBarContent']/div[@class='contentBar']/a[1]",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节列表": {
+    "请求信息": "",
+    "list": "//*[@id="navBarContent"]/div[@class='contentBar']/a[@class='chapter']||@js:
+return result.reverse();",
+    "title": "//a",
+    "url": "//a/@href",
+    "nextPageUrl": "",
+    "updateTime": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "章节内容": {
+    "请求信息": "@js:
+let res=result+"?p="+ params.pageIndex
+return res",
+    "content": "",
+    "nextPageUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "普通字符串",
+    "success": "",
+    "JSParser": "function functionName(config, params, result) {
+    let res = ""
+    let arr = result.match(/push\(\"(.*?)\?/gim)
+
+    for (i = 0; i < arr.length; i++) {
+        params.nativeTool.log(arr[i])
+        res = res + arr[i].replace('push("', '') + "\n";
+    }
+   return {"content":res,"more": true, "success": true, "autoRequestMore": true }
+}",
+    "moreKeys": "{"pageSize":30}"
+  },
+  "书籍分类": [
+    {
+      "name": "分类搜寻",
+      "rules": {
+        "请求信息": "https://bmhl.xyz/tag_result?query=%@filter&search_type=tag&p=%@pageIndex",
+        "list": "//*[@id="list_group"]/div[@class='list_items']/div[@class='list_item']",
+        "bookName": "//div[@class='list_item__info']/a[1]",
+        "author": "//div[@class='list_item__info']/a[2]",
+        "cover": "//@data-bg",
+        "desc": "//div[@class='list_item__info']/div[@class='desc']",
+        "cat": "//div[@class='search_tag_group']/div[@class='tags']",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "//div[@class='list_item__action']/div[@class='update']",
+        "detailUrl": "//div[@class='list_item__action']/a/@href",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": "{"pageSize":30,"requestFilters":[{"items":[{"value":"兽耳","title":"兽耳"},{"value":"ABO","title":"ABO"},{"value":"男孕","title":"男孕"},{"value":"青梅竹马","title":"青梅竹马"},{"value":"年下攻","title":"年下攻"},{"value":"正太","title":"正太"},{"value":"攻受互换","title":"攻受互换"},{"value":"调教","title":"调教"},{"value":"多P","title":"多P"},{"value":"搞笑","title":"搞笑"},{"value":"腹黑攻","title":"腹黑攻"},{"value":"仙侠","title":"仙侠"},{"value":"清水","title":"清水"},{"value":"女王受","title":"女王受"},{"value":"SM","title":"SM"},{"value":"兄贵","title":"兄贵"},{"value":"健气受","title":"健气受"},{"value":"骨科","title":"骨科"},{"value":"圈养","title":"圈养"},{"value":"高H","title":"高H"},{"value":"办公室恋情","title":"办公室恋情"},{"value":"校园","title":"校园"},{"value":"师生恋","title":"师生恋"},{"value":"傲娇受","title":"傲娇受"},{"value":"天然攻","title":"天然攻"},{"value":"穿越｜快穿","title":"穿越｜快穿"},{"value":"重逢｜重生","title":"重逢｜重生"},{"value":"修仙","title":"修仙"},{"value":"甜文","title":"甜文"},{"value":"待分类","title":"待分类"},{"value":"2019_BL_AWARD","title":"2019_BL_AWARD"},{"value":"淫荡受｜诱受","title":"淫荡受｜诱受"},{"value":"男妓","title":"男妓"},{"value":"娱乐圈","title":"娱乐圈"},{"value":"总裁系列","title":"总裁系列"},{"value":"灵异","title":"灵异"},{"value":"豪门","title":"豪门"},{"value":"古代｜非现代","title":"古代｜非现代"},{"value":"架空","title":"架空"},{"value":"星际","title":"星际"},{"value":"韩漫","title":"韩漫"},{"value":"现代都市","title":"现代都市"},{"value":"虐恋","title":"虐恋"},{"value":"2020_BL_AWARD","title":"2020_BL_AWARD"},{"value":"有肉小说","title":"有肉小说"}],"key":"filter"}]}"
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "bookName": "",
+        "author": "",
+        "cover": "",
+        "desc": "",
+        "cat": "",
+        "status": "",
+        "wordCount": "",
+        "lastChapterTitle": "",
+        "detailUrl": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单搜索": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "cover": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书单分组": [
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    },
+    {
+      "name": "",
+      "rules": {
+        "请求信息": "",
+        "list": "",
+        "title":"",
+        "detail": "",
+        "cover": "",
+        "url": "",
+        "requestParamsEncode": "utf-8",
+        "responseEncode": "utf-8",
+        "responseFormatType": "格式化为DOM(html)",
+        "success": "",
+        "JSParser": "",
+        "moreKeys": ""
+      }
+    }
+  ],
+  "书单详情": {
+    "请求信息": "",
+    "list": "",
+    "detail": "",
+    "bookName": "",
+    "author": "",
+    "cover": "",
+    "desc": "",
+    "cat": "",
+    "status": "",
+    "wordCount": "",
+    "lastChapterTitle": "",
+    "detailUrl": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "书本评论": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "广场": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "detail": "",
+    "replyCount": "",
+    "createdTime": "",
+    "fromUserName": "",
+    "fromUserCover": "",
+    "score": "",
+    "url": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  },
+  "热词": {
+    "请求信息": "",
+    "list": "",
+    "title": "",
+    "requestParamsEncode": "utf-8",
+    "responseEncode": "utf-8",
+    "responseFormatType": "格式化为DOM(html)",
+    "success": "",
+    "JSParser": "",
+    "moreKeys": ""
+  }
+}

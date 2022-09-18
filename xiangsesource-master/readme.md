@@ -55,7 +55,6 @@
 |Bilibili Comics|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bilibilicomics.xbs`|🔒🏴󠁧󠁢󠁥󠁮󠁧󠁿|中英皆有|both English and Chinese|
 |腾讯动漫|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/macqq.xbs`|🔒🍪|||
 |Webtoons|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/webtoons.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿🔒🍪|||
-|漫蛙|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manwa.xbs`|🍪|无效了|not usable|
 |mangaowl|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangaowl.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
 |mangago|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangago.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|比较慢|a bit slow|
 |mangadex|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/mangadex.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|||
@@ -73,6 +72,7 @@
 |Suburban Fairy Tales|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/francisbonnet.xbs`|🏴󠁧󠁢󠁥󠁮󠁧󠁿|没多少但是三格漫我挺推荐的|there's not much but the comic is one i recommend|
 |快看漫画|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/kkmh.xbs`|🔒🍪|||
 |香香腐宅|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/boylove.xbs`|🍪|||
+|啵乐|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/bmhl.xbs`||感谢某位不想被标注的大佬的修复和南月北风的优化||
 |包子漫画|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/baozimh.xbs`||||
 |腐漫漫画|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/fumanmi.xbs`||||
 |漫画魂|`https://github.com/haitang-blossoms/xiangsesource/raw/main/xiangsesource-master/newxbs/manhuahun.xbs`||||
