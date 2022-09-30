@@ -46,7 +46,7 @@ return {'url':result+'ajax/chapters/', 'POST':true};",
     "list": "//li[@class='wp-manga-chapter    ']||@js:
 return result.reverse();",
     "title": "//a",
-    "url": "//span/a/@href",
+    "url": "//span/a/@href||//a/@href",
     "nextPageUrl": "",
     "updateTime": "",
     "requestParamsEncode": "utf-8",
