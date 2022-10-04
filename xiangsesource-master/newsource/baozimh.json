@@ -42,7 +42,8 @@
   },
   "章节列表": {
     "请求信息": "",
-    "list": "//div [contains(@id, 'chapter')]/div[contains(@class, 'comics-chapters')]",
+    "list": "//div[contains(@class, 'comics-chapters')]||@js:
+return result.reverse();",
     "title": "//span",
     "url": "//a/@href",
     "nextPageUrl": "",
@@ -57,13 +58,17 @@
   "章节内容": {
     "请求信息": "",
     "content": "//ul[@class='comic-contain']/div/amp-img/@src",
-    "nextPageUrl": "",
+    "nextPageUrl": "//div[@class='l-content']/a[@id='next-chapter']/span||@js:
+if (result == '下一页')
+	return params.queryInfo.url.replace('.html', '') + '_' + (params.pageIndex+1) + '.html';
+else
+	return undefined;",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
     "responseFormatType": "格式化为DOM(html)",
     "success": "",
     "JSParser": "",
-    "moreKeys": ""
+    "moreKeys": "{"maxPage":200,"pageSize":50}"
   },
   "书籍分类": [
     {
