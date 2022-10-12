@@ -47,7 +47,7 @@ return result.novelClass + ' ' + result.tags;",
     "请求信息": "http://app-ios-cdn.jjwxc.net/iosapi/chapterList?more=0&novelId=%@result&whole=1",
     "list": "chapterlist",
     "title": "@js:
-return result.chaptername + ' ' + result.chapterMessage;",
+return result.chapterid + '. ' + result.chaptername + '｜' + result.chapterintro + ' ' + result.chapterMessage;",
     "url": "@js:
 return 'http://app-cdn.jjwxc.net/androidapi/chapterContent?novelId=' + params.queryInfo.detailUrl + '&chapterId=' + result.chapterid;",
     "nextPageUrl": "",
@@ -61,7 +61,8 @@ return 'http://app-cdn.jjwxc.net/androidapi/chapterContent?novelId=' + params.qu
   },
   "章节内容": {
     "请求信息": "",
-    "content": "content",
+    "content": "@js:
+return result.content + '\n\n\n作者有话要说：' + result.sayBody;",
     "nextPageUrl": "",
     "requestParamsEncode": "utf-8",
     "responseEncode": "utf-8",
