@@ -8,7 +8,7 @@
 ## 2.52&above以及以上
 |||
 |--|--|
-|复制链接，到app同步界面同步源`https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/readme.md`|copy link and go to app source sync page|
+|打开链接链接，复制内容，到app同步界面同步源 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/import.md |open link, copy contents and go to app source sync page|
 |格式是以.xbs尾或.md尾（.md则是多个源导入）|format ends in extensions .xbs or .md (markdown files contain multiple source imports)|
 |如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可|if there is a xbs file not listed in the .md, simply copy the raw file link and import|
 | https://github.com/haitang-blossoms/xiangsesource/blob/main/%E4%B9%A6%E6%BA%90%E4%BB%8B%E7%BB%8D.md 是源介绍|is the description for sources|
