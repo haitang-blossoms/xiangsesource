@@ -28,6 +28,7 @@ https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/wik
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/archiveofourown.xbs
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/sparknotes.xbs
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/mmkuu.xbs
+https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/fxsw.xbs
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/boylovenovel.xbs
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/dmxsdq.xbs
 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/newxbs/pingccfiction.xbs
