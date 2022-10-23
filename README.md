@@ -10,6 +10,7 @@
 |--|--|
 |打开链接链接，复制内容，到app同步界面同步源 https://raw.githubusercontent.com/haitang-blossoms/xiangsesource/main/haitang-source.xbs |open link, copy contents and go to app source sync page|
 |格式是以.xbs尾或.md尾（.md则是多个源导入）|format ends in extensions .xbs or .md (markdown files contain multiple source imports)|
+|🌐非中文 🔍仅搜索 📊仅分类 🔮API源 🔬教学源 🪜翻墙 🔞涩涩 🍪可用cookie ©️正版 ✨推荐🔭仅索引，不可看内容；🌺是我的源标志|🌐not chinese 🔍only search 📊only discover 🔮API source 🔬demonstration source 🪜VPN (for those in mainland china) 🔞sexual content 🍪can use cookies ©️official copyrighted content ✨recommended 🔭only search/discover content；🌺是我的源标志|
 |如果从我仓库中找到想要导入的xbs文件，复制raw文件链接即可|if there is a xbs file not listed in the .md, simply copy the raw file link and import|
 | https://github.com/haitang-blossoms/xiangsesource/blob/main/%E4%B9%A6%E6%BA%90%E4%BB%8B%E7%BB%8D.md 是源介绍|is the description for sources|
 
